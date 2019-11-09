@@ -1,13 +1,9 @@
-import com.palantir.gradle.docker.DockerExtension
-import com.palantir.gradle.docker.DockerRunExtension
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("org.springframework.boot") version "2.2.0.RELEASE"
     id("io.spring.dependency-management") version "1.0.8.RELEASE"
-    id("com.palantir.docker") version "0.22.1"
-    id("com.palantir.docker-run") version "0.22.1"
-    //id("com.palantir.docker-compose") version "0.22.1"
+    id("com.google.cloud.tools.jib") version "1.7.0"
     kotlin("jvm") version "1.3.50"
     kotlin("plugin.spring") version "1.3.50"
 }
@@ -55,28 +51,35 @@ tasks.withType<KotlinCompile> {
     }
 }
 
-//https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin#quickstart
+//jib.to.image = "${project.group}/${project.name}"
 
-configure<DockerExtension> {
-    name = "swapi/${project.name}"
-    //setDockerfile(project.file("Dockerfile"))
-    copy {
-        from("$buildDir/libs/${project.name}-${version}.jar")
-        into("$buildDir/docker")
+jib() {
+    to {
+        image = "localhost:5000/${project.name}"
+        tags = setOf(project.version.toString(), "latest")
+        auth {
+            username = ""
+            password = ""
+        }
     }
-    buildArgs(mapOf("JAR_FILE" to "${project.name}-${version}.jar"))
-    /*
-    copy {
-        from(zipTree("$buildDir/libs/${project.name}-${version}.jar"))
-        into("$buildDir/docker/dependency")
-    }
-    buildArgs(mapOf("DEPENDENCY" to "dependency"))
-    */
 }
-
-configure<DockerRunExtension> {
-    name = "swapi-${project.name}-container"
-    image = "swapi/${project.name}"
-    ports("8080:8080")
-    daemonize = true
+/*
+jib {
+  from {
+    image = 'openjdk:alpine'
+  }
+  to {
+    image = 'localhost:5000/my-image/built-with-jib'
+    credHelper = 'osxkeychain'
+    tags = ['tag2', 'latest']
+  }
+  container {
+    jvmFlags = ['-Xms512m', '-Xdebug', '-Xmy:flag=jib-rules']
+    mainClass = 'mypackage.MyApp'
+    args = ['some', 'args']
+    ports = ['1000', '2000-2003/udp']
+    labels = [key1:'value1', key2:'value2']
+    format = 'OCI'
+  }
 }
+ */

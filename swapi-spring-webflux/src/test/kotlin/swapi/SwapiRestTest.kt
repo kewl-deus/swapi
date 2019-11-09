@@ -1,10 +1,8 @@
 package swapi
 
-import com.beust.klaxon.JsonObject
-import org.junit.jupiter.api.Test
-import java.time.LocalTime
 import retrofit2.Retrofit
 import retrofit2.create
+import java.time.LocalTime
 
 
 class SwapiRestTest {
@@ -23,7 +21,7 @@ class SwapiRestTest {
         System.out.println(msg)
     }
 
-    @Test
+    //@Test
     fun shouldListTallSpecies(){
         val client = Retrofit.Builder()
                 .baseUrl("http://localhost:8080/swapi/")
