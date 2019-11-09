@@ -1,0 +1,998 @@
+[
+      {
+        "name": "Sentinel-class landing craft",
+        "maxAtmospheringSpeed": 1000,
+        "passengers": 75,
+        "costInCredits": 240000,
+        "crew": 5,
+        "mglt": 70,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "id": "cj0nwtqoyq4tp0114jjljap6j",
+        "hyperdriveRating": 1,
+        "class": "landing craft",
+        "length": 38,
+        "pilots": [],
+        "manufacturer": [
+          "Sienar Fleet Systems",
+          " Cyngus Spaceworks"
+        ],
+        "cargoCapacity": 180000
+      },
+      {
+        "name": "Death Star",
+        "maxAtmospheringSpeed": null,
+        "passengers": 843342,
+        "costInCredits": 1000000000000,
+        "crew": 342953,
+        "mglt": 10,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "id": "cj0nwtqphq4tr0114zo7suw8h",
+        "hyperdriveRating": 4,
+        "class": "Deep Space Mobile Battlestation",
+        "length": 120000,
+        "pilots": [],
+        "manufacturer": [
+          "Imperial Department of Military Research",
+          " Sienar Fleet Systems"
+        ],
+        "cargoCapacity": 1000000000000
+      },
+      {
+        "name": "Millennium Falcon",
+        "maxAtmospheringSpeed": 1050,
+        "passengers": 6,
+        "costInCredits": 100000,
+        "crew": 4,
+        "mglt": 75,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "id": "cj0nwtqpzq4tt01142nh7e9i4",
+        "hyperdriveRating": 0.5,
+        "class": "Light freighter",
+        "length": 34.37,
+        "pilots": [
+          {
+            "id": "cj0nv9pd9ewd601306f4ackea"
+          },
+          {
+            "id": "cj0nv9pdlewd80130bs5vgryn"
+          },
+          {
+            "id": "cj0nv9ph2ewhu0130neejtdm7"
+          },
+          {
+            "id": "cj0nv9piqewi601303n0rve5n"
+          },
+          {
+            "id": "cj0nv9pz8ewx90130rcqp39ma"
+          }
+        ],
+        "manufacturer": [
+          "Corellian Engineering Corporation"
+        ],
+        "cargoCapacity": 100000
+      },
+      {
+        "name": "Y-wing",
+        "maxAtmospheringSpeed": 1000,
+        "passengers": 0,
+        "costInCredits": 134999,
+        "crew": 2,
+        "mglt": 80,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqqvq4xx0114j0y0n79d",
+        "hyperdriveRating": 1,
+        "class": "assault starfighter",
+        "length": 14,
+        "pilots": [],
+        "manufacturer": [
+          "Koensayr Manufacturing"
+        ],
+        "cargoCapacity": 110
+      },
+      {
+        "name": "X-wing",
+        "maxAtmospheringSpeed": 1050,
+        "passengers": 0,
+        "costInCredits": 149999,
+        "crew": 1,
+        "mglt": 100,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqreq4y00114p4a447ed",
+        "hyperdriveRating": 1,
+        "class": "Starfighter",
+        "length": 12.5,
+        "pilots": [
+          {
+            "id": "cj0nv9p8yewci0130wjy4o5fa"
+          },
+          {
+            "id": "cj0nv9pbxewcy0130rl03ub1e"
+          },
+          {
+            "id": "cj0nv9peiewhf013011i9a4h2"
+          },
+          {
+            "id": "cj0nv9peuewhh0130il9ua6bh"
+          }
+        ],
+        "manufacturer": [
+          "Incom Corporation"
+        ],
+        "cargoCapacity": 110
+      },
+      {
+        "name": "TIE Advanced x1",
+        "maxAtmospheringSpeed": 1200,
+        "passengers": 0,
+        "costInCredits": null,
+        "crew": 1,
+        "mglt": 105,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "id": "cj0nwtqrtq4yz0114o0i03199",
+        "hyperdriveRating": 1,
+        "class": "Starfighter",
+        "length": 9.2,
+        "pilots": [
+          {
+            "id": "cj0nv9pa9ewco0130v4ocnhed"
+          }
+        ],
+        "manufacturer": [
+          "Sienar Fleet Systems"
+        ],
+        "cargoCapacity": 150
+      },
+      {
+        "name": "Executor",
+        "maxAtmospheringSpeed": null,
+        "passengers": 38000,
+        "costInCredits": 1143350000,
+        "crew": 279144,
+        "mglt": 40,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqs9q4z10114ipw9hrtu",
+        "hyperdriveRating": 2,
+        "class": "Star dreadnought",
+        "length": 19000,
+        "pilots": [],
+        "manufacturer": [
+          "Kuat Drive Yards",
+          " Fondor Shipyards"
+        ],
+        "cargoCapacity": 250000000
+      },
+      {
+        "name": "Slave 1",
+        "maxAtmospheringSpeed": 1000,
+        "passengers": 6,
+        "costInCredits": null,
+        "crew": 1,
+        "mglt": 70,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqsrq4z30114votsy21g",
+        "hyperdriveRating": 3,
+        "class": "Patrol craft",
+        "length": 21.5,
+        "pilots": [
+          {
+            "id": "cj0nv9pg3ewho0130tijy6bk9"
+          }
+        ],
+        "manufacturer": [
+          "Kuat Systems Engineering"
+        ],
+        "cargoCapacity": 70000
+      },
+      {
+        "name": "Imperial shuttle",
+        "maxAtmospheringSpeed": 850,
+        "passengers": 20,
+        "costInCredits": 240000,
+        "crew": 6,
+        "mglt": 50,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqt5q4z50114u4lejke2",
+        "hyperdriveRating": 1,
+        "class": "Armed government transport",
+        "length": 20,
+        "pilots": [
+          {
+            "id": "cj0nv9p8yewci0130wjy4o5fa"
+          },
+          {
+            "id": "cj0nv9pd9ewd601306f4ackea"
+          },
+          {
+            "id": "cj0nv9pdlewd80130bs5vgryn"
+          }
+        ],
+        "manufacturer": [
+          "Sienar Fleet Systems"
+        ],
+        "cargoCapacity": 80000
+      },
+      {
+        "name": "EF76 Nebulon-B escort frigate",
+        "maxAtmospheringSpeed": 800,
+        "passengers": 75,
+        "costInCredits": 8500000,
+        "crew": 854,
+        "mglt": 40,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqtkq53701147nyv3twg",
+        "hyperdriveRating": 2,
+        "class": "Escort ship",
+        "length": 300,
+        "pilots": [],
+        "manufacturer": [
+          "Kuat Drive Yards"
+        ],
+        "cargoCapacity": 6000000
+      },
+      {
+        "name": "Calamari Cruiser",
+        "maxAtmospheringSpeed": null,
+        "passengers": 1200,
+        "costInCredits": 104000000,
+        "crew": 5400,
+        "mglt": 60,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0nwtqtxq5390114gpi9g07u",
+        "hyperdriveRating": 1,
+        "class": "Star Cruiser",
+        "length": 1200,
+        "pilots": [],
+        "manufacturer": [
+          "Mon Calamari shipyards"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "A-wing",
+        "maxAtmospheringSpeed": 1300,
+        "passengers": 0,
+        "costInCredits": 175000,
+        "crew": 1,
+        "mglt": 120,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0nwtqudq53b0114s5id3anc",
+        "hyperdriveRating": 1,
+        "class": "Starfighter",
+        "length": 9.6,
+        "pilots": [
+          {
+            "id": "cj0nv9pi6ewi201308xa3cuha"
+          }
+        ],
+        "manufacturer": [
+          "Alliance Underground Engineering",
+          " Incom Corporation"
+        ],
+        "cargoCapacity": 40
+      },
+      {
+        "name": "B-wing",
+        "maxAtmospheringSpeed": 950,
+        "passengers": 0,
+        "costInCredits": 220000,
+        "crew": 1,
+        "mglt": 91,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0nwtqupq53e0114dl5ikfwq",
+        "hyperdriveRating": 2,
+        "class": "Assault Starfighter",
+        "length": 16.9,
+        "pilots": [],
+        "manufacturer": [
+          "Slayn & Korpil"
+        ],
+        "cargoCapacity": 45
+      },
+      {
+        "name": "Republic Cruiser",
+        "maxAtmospheringSpeed": 900,
+        "passengers": 16,
+        "costInCredits": null,
+        "crew": 9,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "id": "cj0nwtqv2q53g0114d58808u5",
+        "hyperdriveRating": 2,
+        "class": "Space cruiser",
+        "length": 115,
+        "pilots": [],
+        "manufacturer": [
+          "Corellian Engineering Corporation"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Naboo fighter",
+        "maxAtmospheringSpeed": 1100,
+        "passengers": 0,
+        "costInCredits": 200000,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "id": "cj0nwtqvfq53i0114d6kym9f4",
+        "hyperdriveRating": 1,
+        "class": "Starfighter",
+        "length": 11,
+        "pilots": [
+          {
+            "id": "cj0nv9pcjewd20130zu2qp5ml"
+          },
+          {
+            "id": "cj0nv9prkewrs0130ywj2hmre"
+          },
+          {
+            "id": "cj0nv9q0eewxh0130orm19nl4"
+          }
+        ],
+        "manufacturer": [
+          "Theed Palace Space Vessel Engineering Corps"
+        ],
+        "cargoCapacity": 65
+      },
+      {
+        "name": "Naboo Royal Starship",
+        "maxAtmospheringSpeed": 920,
+        "passengers": null,
+        "costInCredits": null,
+        "crew": 8,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "id": "cj0nwtqvrq53k0114b291ao52",
+        "hyperdriveRating": 1.8,
+        "class": "yacht",
+        "length": 76,
+        "pilots": [
+          {
+            "id": "cj0nv9pkqewik013009i8sau1"
+          }
+        ],
+        "manufacturer": [
+          "Theed Palace Space Vessel Engineering Corps",
+          " Nubia Star Drives"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Scimitar",
+        "maxAtmospheringSpeed": 1180,
+        "passengers": 6,
+        "costInCredits": 55000000,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "id": "cj0nwtqw4q53m0114jllt1kvp",
+        "hyperdriveRating": 1.5,
+        "class": "Space Transport",
+        "length": 26.5,
+        "pilots": [
+          {
+            "id": "cj0nv9pmjewmw0130smxc3xtg"
+          }
+        ],
+        "manufacturer": [
+          "Republic Sienar Systems"
+        ],
+        "cargoCapacity": 2500000
+      },
+      {
+        "name": "J-type diplomatic barge",
+        "maxAtmospheringSpeed": 2000,
+        "passengers": 10,
+        "costInCredits": 2000000,
+        "crew": 5,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0nwtqwhq57p0114c672vufv",
+        "hyperdriveRating": 0.7,
+        "class": "Diplomatic barge",
+        "length": 39,
+        "pilots": [],
+        "manufacturer": [
+          "Theed Palace Space Vessel Engineering Corps",
+          " Nubia Star Drives"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "AA-9 Coruscant freighter",
+        "maxAtmospheringSpeed": null,
+        "passengers": 30000,
+        "costInCredits": null,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0nwtqwwq57r0114tj97s0m7",
+        "hyperdriveRating": null,
+        "class": "freighter",
+        "length": 390,
+        "pilots": [],
+        "manufacturer": [
+          "Botajef Shipyards"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Jedi starfighter",
+        "maxAtmospheringSpeed": 1150,
+        "passengers": 0,
+        "costInCredits": 180000,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtqxcq57u01147v9mcrzf",
+        "hyperdriveRating": 1,
+        "class": "Starfighter",
+        "length": 8,
+        "pilots": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9pqzewro0130goxvqygc"
+          }
+        ],
+        "manufacturer": [
+          "Kuat Systems Engineering"
+        ],
+        "cargoCapacity": 60
+      },
+      {
+        "name": "H-type Nubian yacht",
+        "maxAtmospheringSpeed": 8000,
+        "passengers": null,
+        "costInCredits": null,
+        "crew": 4,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0nwtqxqq57w0114r7awvbfp",
+        "hyperdriveRating": 0.9,
+        "class": "yacht",
+        "length": 47.9,
+        "pilots": [
+          {
+            "id": "cj0nv9q0eewxh0130orm19nl4"
+          }
+        ],
+        "manufacturer": [
+          "Theed Palace Space Vessel Engineering Corps"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Star Destroyer",
+        "maxAtmospheringSpeed": 975,
+        "passengers": 0,
+        "costInCredits": 150000000,
+        "crew": 47060,
+        "mglt": 60,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtqy5q57y01140qg76me2",
+        "hyperdriveRating": 2,
+        "class": "Star Destroyer",
+        "length": 1600,
+        "pilots": [],
+        "manufacturer": [
+          "Kuat Drive Yards"
+        ],
+        "cargoCapacity": 36000000
+      },
+      {
+        "name": "Trade Federation cruiser",
+        "maxAtmospheringSpeed": 1050,
+        "passengers": 48247,
+        "costInCredits": 125000000,
+        "crew": 600,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtqytq5800114zjhy9gcj",
+        "hyperdriveRating": 1.5,
+        "class": "capital ship",
+        "length": 1088,
+        "pilots": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9pcjewd20130zu2qp5ml"
+          }
+        ],
+        "manufacturer": [
+          "Rendili StarDrive",
+          " Free Dac Volunteers Engineering corps."
+        ],
+        "cargoCapacity": 50000000
+      },
+      {
+        "name": "Theta-class T-2c shuttle",
+        "maxAtmospheringSpeed": 2000,
+        "passengers": 16,
+        "costInCredits": 1000000,
+        "crew": 5,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtqzbq5820114l5tw912q",
+        "hyperdriveRating": 1,
+        "class": "transport",
+        "length": 18.5,
+        "pilots": [],
+        "manufacturer": [
+          "Cygnus Spaceworks"
+        ],
+        "cargoCapacity": 50000
+      },
+      {
+        "name": "T-70 X-wing fighter",
+        "maxAtmospheringSpeed": null,
+        "passengers": null,
+        "costInCredits": null,
+        "crew": 1,
+        "mglt": null,
+        "films": [],
+        "id": "cj0nwtqzsq58401148bc66ui5",
+        "hyperdriveRating": null,
+        "class": "fighter",
+        "length": null,
+        "pilots": [
+          {
+            "id": "cj0nv9pziewxb0130x6vhaj8g"
+          }
+        ],
+        "manufacturer": [
+          "Incom"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Rebel transport",
+        "maxAtmospheringSpeed": 650,
+        "passengers": 90,
+        "costInCredits": null,
+        "crew": 6,
+        "mglt": 20,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0nwtr07q5860114oxaxo1qs",
+        "hyperdriveRating": 4,
+        "class": "Medium transport",
+        "length": 90,
+        "pilots": [],
+        "manufacturer": [
+          "Gallofree Yards",
+          " Inc."
+        ],
+        "cargoCapacity": 19000000
+      },
+      {
+        "name": "Droid control ship",
+        "maxAtmospheringSpeed": null,
+        "passengers": 139000,
+        "costInCredits": null,
+        "crew": 175,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr0lq5890114bdbms643",
+        "hyperdriveRating": 2,
+        "class": "Droid control ship",
+        "length": 3170,
+        "pilots": [],
+        "manufacturer": [
+          "Hoersch-Kessel Drive",
+          " Inc."
+        ],
+        "cargoCapacity": 4000000000
+      },
+      {
+        "name": "Republic Assault ship",
+        "maxAtmospheringSpeed": null,
+        "passengers": 16000,
+        "costInCredits": null,
+        "crew": 700,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0nwtr16q5cc0114xy8fbjnx",
+        "hyperdriveRating": 0.6,
+        "class": "assault ship",
+        "length": 752,
+        "pilots": [],
+        "manufacturer": [
+          "Rothana Heavy Engineering"
+        ],
+        "cargoCapacity": 11250000
+      },
+      {
+        "name": "Solar Sailer",
+        "maxAtmospheringSpeed": 1600,
+        "passengers": 11,
+        "costInCredits": 35700,
+        "crew": 3,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0nwtr1kq5ce0114e67x3jci",
+        "hyperdriveRating": 1.5,
+        "class": "yacht",
+        "length": 15.2,
+        "pilots": [],
+        "manufacturer": [
+          "Huppla Pasa Tisc Shipwrights Collective"
+        ],
+        "cargoCapacity": 240
+      },
+      {
+        "name": "Republic attack cruiser",
+        "maxAtmospheringSpeed": 975,
+        "passengers": 2000,
+        "costInCredits": 59000000,
+        "crew": 7400,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr27q5ch0114usza57s0",
+        "hyperdriveRating": 1,
+        "class": "star destroyer",
+        "length": 1137,
+        "pilots": [],
+        "manufacturer": [
+          "Kuat Drive Yards",
+          " Allanteen Six shipyards"
+        ],
+        "cargoCapacity": 20000000
+      },
+      {
+        "name": "Naboo star skiff",
+        "maxAtmospheringSpeed": 1050,
+        "passengers": 3,
+        "costInCredits": null,
+        "crew": 3,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr2lq5ck01145j6ztwzk",
+        "hyperdriveRating": 0.5,
+        "class": "yacht",
+        "length": 29.2,
+        "pilots": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9q0eewxh0130orm19nl4"
+          }
+        ],
+        "manufacturer": [
+          "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives",
+          " Incorporated"
+        ],
+        "cargoCapacity": null
+      },
+      {
+        "name": "Jedi Interceptor",
+        "maxAtmospheringSpeed": 1500,
+        "passengers": 0,
+        "costInCredits": 320000,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr2xq5cm0114vpr8asu9",
+        "hyperdriveRating": 1,
+        "class": "starfighter",
+        "length": 5.47,
+        "pilots": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9pcjewd20130zu2qp5ml"
+          }
+        ],
+        "manufacturer": [
+          "Kuat Systems Engineering"
+        ],
+        "cargoCapacity": 60
+      },
+      {
+        "name": "arc-170",
+        "maxAtmospheringSpeed": 1000,
+        "passengers": 0,
+        "costInCredits": 155000,
+        "crew": 3,
+        "mglt": 100,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr3aq5co0114qple26v3",
+        "hyperdriveRating": 1,
+        "class": "starfighter",
+        "length": 14.5,
+        "pilots": [],
+        "manufacturer": [
+          "Incom Corporation",
+          " Subpro Corporation"
+        ],
+        "cargoCapacity": 110
+      },
+      {
+        "name": "Banking clan frigte",
+        "maxAtmospheringSpeed": null,
+        "passengers": null,
+        "costInCredits": 57000000,
+        "crew": 200,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr3mq5cq0114hkjfwbr4",
+        "hyperdriveRating": 1,
+        "class": "cruiser",
+        "length": 825,
+        "pilots": [],
+        "manufacturer": [
+          "Hoersch-Kessel Drive",
+          " Inc",
+          " Gwori Revolutionary Industries"
+        ],
+        "cargoCapacity": 40000000
+      },
+      {
+        "name": "Belbullab-22 starfighter",
+        "maxAtmospheringSpeed": 1100,
+        "passengers": 0,
+        "costInCredits": 168000,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr3zq5cs0114189m08ze",
+        "hyperdriveRating": 6,
+        "class": "starfighter",
+        "length": 6.71,
+        "pilots": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9pxjewwx0130vppfyd85"
+          }
+        ],
+        "manufacturer": [
+          "Feethan Ottraw Scalable Assemblies"
+        ],
+        "cargoCapacity": 140
+      },
+      {
+        "name": "V-wing",
+        "maxAtmospheringSpeed": 1050,
+        "passengers": 0,
+        "costInCredits": 102500,
+        "crew": 1,
+        "mglt": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0nwtr4bq5gu0114p56o7d45",
+        "hyperdriveRating": 1,
+        "class": "starfighter",
+        "length": 7.9,
+        "pilots": [],
+        "manufacturer": [
+          "Kuat Systems Engineering"
+        ],
+        "cargoCapacity": 60
+      },
+      {
+        "name": "CR90 corvette",
+        "maxAtmospheringSpeed": 950,
+        "passengers": 600,
+        "costInCredits": 3500000,
+        "crew": 165,
+        "mglt": 60,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0nwtr4oq5gx0114qq8lcxyw",
+        "hyperdriveRating": 2,
+        "class": "corvette",
+        "length": 150,
+        "pilots": [],
+        "manufacturer": [
+          "Corellian Engineering Corporation"
+        ],
+        "cargoCapacity": 3000000
+      }
+    ]

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: true
+
+logging:
+  level:
+    web: DEBUG
+    swapi: TRACE
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
