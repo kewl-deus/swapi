@@ -1,3 +1,5 @@
+gradle.properties
+
 HELP.md
 .gradle
 build/
