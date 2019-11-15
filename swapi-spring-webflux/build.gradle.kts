@@ -51,9 +51,6 @@ tasks.withType<KotlinCompile> {
     }
 }
 
-//jib.to.image = "${project.group}/${project.name}"
-
-
 jib() {
     to {
         image = "docker.local/${project.name}"
@@ -65,24 +62,3 @@ jib() {
     }
     setAllowInsecureRegistries(true)
 }
-
-/*
-jib {
-  from {
-    image = 'openjdk:alpine'
-  }
-  to {
-    image = 'localhost:5000/my-image/built-with-jib'
-    credHelper = 'osxkeychain'
-    tags = ['tag2', 'latest']
-  }
-  container {
-    jvmFlags = ['-Xms512m', '-Xdebug', '-Xmy:flag=jib-rules']
-    mainClass = 'mypackage.MyApp'
-    args = ['some', 'args']
-    ports = ['1000', '2000-2003/udp']
-    labels = [key1:'value1', key2:'value2']
-    format = 'OCI'
-  }
-}
- */
