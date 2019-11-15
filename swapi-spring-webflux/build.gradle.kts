@@ -53,16 +53,19 @@ tasks.withType<KotlinCompile> {
 
 //jib.to.image = "${project.group}/${project.name}"
 
+
 jib() {
     to {
-        image = "localhost:5000/${project.name}"
+        image = "docker.local/${project.name}"
         tags = setOf(project.version.toString(), "latest")
         auth {
-            username = ""
-            password = ""
+            username = property("docker.registry.username").toString()
+            password = property("docker.registry.password").toString()
         }
     }
+    setAllowInsecureRegistries(true)
 }
+
 /*
 jib {
   from {
