@@ -47,7 +47,7 @@ class SwapiRawRestController {
     private fun fluxify(channel: ReadableByteChannel): Flux<String> {
         return Flux.create<String> { emitter ->
             val byteBuffer = ByteBuffer.allocate(512)
-            var readCount = 0
+            var readCount: Int
             do {
                 readCount = channel.read(byteBuffer)
                 if (readCount > 0){

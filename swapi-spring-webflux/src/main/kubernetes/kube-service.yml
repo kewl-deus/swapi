@@ -1,0 +1,18 @@
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  labels:
+    app: "swapi-spring-webflux"
+    version: "0.0.1-SNAPSHOT"
+    group: "swapi"
+  name: "swapi-spring-webflux-lb"
+spec:
+  ports:
+    - name: "http"
+      port: 8080
+      targetPort: 8080
+  selector:
+    app: "swapi-spring-webflux"
+    version: "0.0.1-SNAPSHOT"
+    group: "swapi"
+  type: LoadBalancer
