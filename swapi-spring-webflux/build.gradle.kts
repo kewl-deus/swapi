@@ -6,6 +6,7 @@ plugins {
     id("com.google.cloud.tools.jib") version "1.7.0"
     kotlin("jvm") version "1.3.50"
     kotlin("plugin.spring") version "1.3.50"
+    kotlin("plugin.jpa") version "1.3.50"
 }
 
 group = "swapi"
@@ -25,6 +26,8 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+
 
     /*********************
      * Kubernetes
@@ -47,14 +50,19 @@ dependencies {
 
     //implementation("org.springframework.hateoas:spring-hateoas:1.0.0.RELEASE")
 
+    //klaxon json parser
     implementation("com.beust:klaxon:5.1")
     //implementation("de.undercouch:actson:1.2.0")
+
+    //database
+    runtimeOnly("org.postgresql:postgresql")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
     testImplementation("io.projectreactor:reactor-test")
 
+    //retrofix http client
     testImplementation("com.squareup.retrofit2:retrofit:2.6.2")
 
 
