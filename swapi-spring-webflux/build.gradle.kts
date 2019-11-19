@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "swapi"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.2-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 ext {
@@ -19,10 +19,10 @@ ext {
 }
 
 repositories {
-    //mavenCentral()
-    //jcenter()
-    //maven("https://repo.spring.io/milestone")
-    maven(url = "http://localhost:30081/repository/maven-public/")
+    mavenCentral()
+    jcenter()
+    maven("https://repo.spring.io/milestone")
+    //maven(url = "http://localhost:30081/repository/maven-public/")
 }
 
 dependencies {
@@ -57,8 +57,8 @@ dependencies {
     //implementation("de.undercouch:actson:1.2.0")
 
     //database
-    //runtimeOnly("org.postgresql:postgresql")
-    runtimeOnly("mysql:mysql-connector-java")
+    runtimeOnly("org.postgresql:postgresql")
+    //runtimeOnly("mysql:mysql-connector-java")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")

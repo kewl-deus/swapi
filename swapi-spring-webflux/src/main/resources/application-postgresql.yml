@@ -1,8 +1,8 @@
 spring:
 
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: "jdbc:mysql://localhost:30306/mydb"
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://kworker1:31472/swapi"
     username: demo
     password: omed
 
@@ -14,7 +14,9 @@ spring:
             create-source: metadata
             scripts:
               action: create
-              create-target: build/generated-sources/sql/mysql/create-model.sql
+              create-target: build/generated-sources/sql/postgresql/create-model.sql
     show-sql: true
     #generate-ddl: true
     #database-platform:
+    #hibernate:
+    #  ddl-auto: update
