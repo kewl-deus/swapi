@@ -1,0 +1,22 @@
+spring:
+#  profiles:
+#    active: mysql
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://localhost:30306/mydb"
+    username: demo
+    password: omed
+
+  jpa:
+    properties:
+      javax:
+        persistence:
+          schema-generation:
+            create-source: metadata
+            scripts:
+              action: create
+              create-target: build/generated-sources/sql/create-model.sql
+    show-sql: true
+    #generate-ddl: true
+    #database-platform:

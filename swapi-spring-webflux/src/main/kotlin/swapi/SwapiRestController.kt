@@ -28,6 +28,8 @@ class SwapiRestController(val environment: Environment) {
 
     private val LOG = LoggerFactory.getLogger(SwapiRestController::class.qualifiedName)
 
+    private val parser = SwapiParser()
+
     @GetMapping("/{resourceName}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
     fun getAll(@PathVariable resourceName: String): Flux<JsonObject> {
@@ -35,7 +37,7 @@ class SwapiRestController(val environment: Environment) {
         val timer = TimerClock().start()
 
         try {
-            var jsonArray = parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
+            var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
 
             //return Flux.fromIterable(jsonArray)
             return Flux.create<JsonObject> { emitter ->
@@ -59,7 +61,7 @@ class SwapiRestController(val environment: Environment) {
         LOG.trace("GET /$resourceName/$id")
         val timer = TimerClock().start()
 
-        var jsonArray = parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
+        var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
         try {
             val result = jsonArray.single { json ->
                 json["id"].toString() == id
@@ -119,13 +121,6 @@ class SwapiRestController(val environment: Environment) {
             }
             emitter.complete()
         }
-    }
-
-    private fun <T> parse(resourceFile: String): T {
-        val cls = SwapiRestController::class.java
-        val inputStream = cls.getResourceAsStream(resourceFile)
-        if (Objects.isNull(inputStream)) throw FileNotFoundException(resourceFile)
-        return Parser.default().parse(inputStream) as T
     }
 
 }

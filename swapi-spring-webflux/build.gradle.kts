@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.springframework.boot.gradle.tasks.run.BootRun
 
 plugins {
     id("org.springframework.boot") version "2.2.1.RELEASE"
@@ -18,9 +19,10 @@ ext {
 }
 
 repositories {
-    mavenCentral()
-    jcenter()
-    maven("https://repo.spring.io/milestone")
+    //mavenCentral()
+    //jcenter()
+    //maven("https://repo.spring.io/milestone")
+    maven(url = "http://localhost:30081/repository/maven-public/")
 }
 
 dependencies {
@@ -55,7 +57,8 @@ dependencies {
     //implementation("de.undercouch:actson:1.2.0")
 
     //database
-    runtimeOnly("org.postgresql:postgresql")
+    //runtimeOnly("org.postgresql:postgresql")
+    runtimeOnly("mysql:mysql-connector-java")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
@@ -79,9 +82,13 @@ tasks.withType<KotlinCompile> {
     }
 }
 
+tasks.withType<BootRun>{
+    args("--spring.profiles.active=" + project.property("spring.profiles"))
+}
+
 jib() {
     to {
-        image = "docker.local/${project.name}"
+        image = "docker.local/${project.group}/${project.name}"
         tags = setOf(project.version.toString(), "latest")
         auth {
             username = property("docker.registry.username").toString()

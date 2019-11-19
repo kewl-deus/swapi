@@ -1,5 +1,6 @@
 package swapi
 
+import com.beust.klaxon.Klaxon
 import io.dekorate.kubernetes.annotation.ImagePullPolicy
 import io.dekorate.kubernetes.annotation.KubernetesApplication
 import io.dekorate.kubernetes.annotation.Probe
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 import org.springframework.web.reactive.config.EnableWebFlux
+import swapi.model.Film
 import swapi.persistence.FilmRepository
 
 @SpringBootApplication
@@ -24,7 +26,9 @@ class SwapiSpringWebfluxApplication {
 
     @Bean
     fun filmInsert(filmRepository: FilmRepository) = CommandLineRunner {
-
+        val films = Klaxon().parseArray<Film>(SwapiResources.getResourceAsStream("films"))!!
+        filmRepository.saveAll(films)
+        films?.map { it.title }.forEach(System.out::println)
     }
 
 }
