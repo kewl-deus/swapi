@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: "swapi-spring-webflux"
-          image: "docker.local/swapi-spring-webflux:0.0.1-SNAPSHOT"
+          image: "docker.local/swapi/swapi-spring-webflux:0.0.1-SNAPSHOT"
           imagePullPolicy: "IfNotPresent"
           livenessProbe:
             httpGet:
