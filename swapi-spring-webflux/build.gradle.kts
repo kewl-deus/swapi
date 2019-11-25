@@ -17,9 +17,10 @@ ext {
 }
 
 repositories {
-    mavenCentral()
-    jcenter()
-    maven("https://repo.spring.io/milestone")
+    //maven("https://repo.spring.io/milestone")
+    //mavenCentral()
+    //jcenter()
+    maven(url = "http://localhost:30081/repository/maven-public/")
 }
 
 dependencies {
@@ -44,6 +45,11 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+
+    //logging
+    implementation("ch.qos.logback.contrib:logback-json-classic:0.1.5")
+    implementation("ch.qos.logback.contrib:logback-jackson:0.1.5")
+
 
     //implementation("org.springframework.hateoas:spring-hateoas:1.0.0.RELEASE")
 

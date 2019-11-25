@@ -1,0 +1,45 @@
+//
+// Built by logback-translator
+// For more information on configuration files in Groovy
+// please see http://logback.qos.ch/manual/groovy.html
+
+// For assistance related to this tool or configuration files
+// in general, please contact the logback user mailing list at
+//    http://qos.ch/mailman/listinfo/logback-user
+
+// For professional support please see
+//   http://www.qos.ch/shop/products/professionalSupport
+
+import ch.qos.logback.classic.PatternLayout
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder
+import ch.qos.logback.core.ConsoleAppender
+import ch.qos.logback.core.rolling.RollingFileAppender
+import ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP
+import ch.qos.logback.core.rolling.TimeBasedRollingPolicy
+
+import static ch.qos.logback.classic.Level.DEBUG
+import static ch.qos.logback.classic.Level.INFO
+import static ch.qos.logback.classic.Level.TRACE
+
+def LOGS = "./logs"
+appender("Console", ConsoleAppender) {
+    layout(PatternLayout) {
+        pattern = "%black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable"
+    }
+}
+appender("RollingFile", RollingFileAppender) {
+    file = "${LOGS}/swapi-spring-webflux.log"
+    encoder(PatternLayoutEncoder) {
+        pattern = "%d %p %C{1.} [%t] %m%n"
+    }
+    rollingPolicy(TimeBasedRollingPolicy) {
+        fileNamePattern = "${LOGS}/archived/swapi-spring-webflux-%d{yyyy-MM-dd}.%i.log"
+        timeBasedFileNamingAndTriggeringPolicy(SizeAndTimeBasedFNATP) {
+            maxFileSize = "10MB"
+        }
+    }
+}
+
+root(INFO, ["RollingFile", "Console"])
+logger("swapi", TRACE, ["RollingFile", "Console"], false)
+logger("org.springframework.web", DEBUG, ["RollingFile", "Console"], false)

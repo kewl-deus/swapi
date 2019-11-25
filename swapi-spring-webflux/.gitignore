@@ -1,5 +1,7 @@
 gradle.properties
 
+logs/
+
 HELP.md
 .gradle
 build/
