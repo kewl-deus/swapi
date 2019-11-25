@@ -76,9 +76,8 @@
         </appender>
     </appender>
 
-    <!--
     <appender name="Logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>logstash_host:5000</destination>
+        <destination>localhost:5000</destination>
 
         <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
             <providers>
@@ -103,23 +102,25 @@
             </providers>
         </encoder>
     </appender>
-    -->
 
     <!-- LOG everything at INFO level -->
     <root level="info">
         <!-- appender-ref ref="RollingFile"/ -->
+        <appender-ref ref="Logstash"/>
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </root>
 
     <logger name="swapi" level="trace" additivity="false">
         <!-- appender-ref ref="RollingFile"/ -->
+        <appender-ref ref="Logstash"/>
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </logger>
 
     <logger name="org.springframework.web" level="debug" additivity="false">
         <!-- appender-ref ref="RollingFile"/ -->
+        <appender-ref ref="Logstash"/>
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </logger>
