@@ -14,7 +14,21 @@ fields:
 
 output:
   logstash:
+    enabled: false
     hosts: ["localhost:5044"]
-  #elasticsearch:
-    #hosts: ["localhost:30920"]
+  elasticsearch:
+    enabled: true
+    hosts: ["localhost:30920"]
+    index: "springapp-%{+yyyy.MM.dd}"
+
+#necessary if index-name in output is defined
+#https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html
+setup.template:
+  enabled: true
+  name: "springapp"
+  pattern: "springapp-*"
+
+#if not configured, template setup is ignored
+#https://www.elastic.co/guide/en/beats/filebeat/current/ilm.html
+setup.ilm.enabled: false
 
