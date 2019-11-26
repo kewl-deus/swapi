@@ -55,7 +55,7 @@ class SwapiRestController(val environment: Environment) {
             val duration = timer.stop().durationSeconds()
             MDC.put("duration.value", duration.toString())
             MDC.put("duration.unit", "seconds")
-            LOG.trace("Leave GET /$resourceName took ${timer.stop().durationSeconds()}s")
+            LOG.trace("Leave: GET /$resourceName took ${timer.stop().durationSeconds()}s")
             MDC.clear()
         }
     }
