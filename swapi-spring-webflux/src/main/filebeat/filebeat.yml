@@ -1,0 +1,20 @@
+filebeat:
+  inputs:
+    - type: log
+      enabled: true
+      #max_bytes: 10485760
+      paths:
+        #- /var/log/*.log
+        - C:\Development\github\swapi\swapi-spring-webflux\logs\swapi-spring-webflux*.json
+
+fields:
+  app.name: swapi-spring-webflux
+  app.version: 0.0.1-SNAPSHOT
+  logsource.stage: dev
+
+output:
+  logstash:
+    hosts: ["localhost:5044"]
+  #elasticsearch:
+    #hosts: ["localhost:30920"]
+

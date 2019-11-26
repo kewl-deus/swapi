@@ -47,6 +47,7 @@
                     <version/>
                     <logLevel/>
                     <loggerName/>
+                    <!--
                     <pattern>
                         <pattern>
                             {
@@ -55,6 +56,7 @@
                             }
                         </pattern>
                     </pattern>
+                    -->
                     <threadName/>
                     <message/>
                     <logstashMarkers/>
@@ -76,6 +78,7 @@
         </appender>
     </appender>
 
+    <!--
     <appender name="Logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>localhost:5000</destination>
 
@@ -86,14 +89,6 @@
                 <version/>
                 <logLevel/>
                 <loggerName/>
-                <pattern>
-                    <pattern>
-                      {
-                        "appName": "swapi-spring-webflux",
-                        "appVersion": "0.0.1-SNAPSHOT"
-                      }
-                    </pattern>
-                </pattern>
                 <threadName/>
                 <message/>
                 <logstashMarkers/>
@@ -102,25 +97,26 @@
             </providers>
         </encoder>
     </appender>
+    -->
 
     <!-- LOG everything at INFO level -->
     <root level="info">
         <!-- appender-ref ref="RollingFile"/ -->
-        <appender-ref ref="Logstash"/>
+        <!-- appender-ref ref="Logstash"/ -->
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </root>
 
     <logger name="swapi" level="trace" additivity="false">
         <!-- appender-ref ref="RollingFile"/ -->
-        <appender-ref ref="Logstash"/>
+        <!-- appender-ref ref="Logstash"/ -->
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </logger>
 
     <logger name="org.springframework.web" level="debug" additivity="false">
         <!-- appender-ref ref="RollingFile"/ -->
-        <appender-ref ref="Logstash"/>
+        <!-- appender-ref ref="Logstash"/ -->
         <appender-ref ref="AsyncJsonFile"/>
         <appender-ref ref="Console"/>
     </logger>
