@@ -4,10 +4,10 @@ server:
     whitelabel:
       enabled: true
 
-logging:
-  level:
-    web: DEBUG
-    swapi: TRACE
+#logging:
+#  level:
+#    web: DEBUG
+#    swapi: TRACE
 
 
 management:

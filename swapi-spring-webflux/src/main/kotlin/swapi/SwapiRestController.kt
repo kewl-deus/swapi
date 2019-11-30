@@ -5,6 +5,7 @@ import com.beust.klaxon.JsonBase
 import com.beust.klaxon.JsonObject
 import com.beust.klaxon.Parser
 import org.slf4j.LoggerFactory
+import org.slf4j.MDC
 import org.springframework.core.env.Environment
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
@@ -33,7 +34,9 @@ class SwapiRestController(val environment: Environment) {
     @GetMapping("/{resourceName}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
     fun getAll(@PathVariable resourceName: String): Flux<JsonObject> {
-        LOG.trace("GET /$resourceName")
+        MDC.put("request.operation", "GET")
+        MDC.put("resource.name", resourceName)
+        LOG.trace("Enter: GET /$resourceName")
         val timer = TimerClock().start()
 
         try {
@@ -51,14 +54,21 @@ class SwapiRestController(val environment: Environment) {
         } catch (fnf: FileNotFoundException){
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            LOG.trace("GET /$resourceName took ${timer.stop().durationSeconds()}")
+            val duration = timer.stop().durationSeconds()
+            MDC.put("duration.value", duration.toString())
+            MDC.put("duration.unit", "seconds")
+            LOG.trace("Leave: GET /$resourceName took ${timer.stop().durationSeconds()}s")
+            MDC.clear()
         }
     }
 
     @GetMapping("/{resourceName}/{id}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
     fun getSingle(@PathVariable resourceName: String, @PathVariable id: String): Mono<JsonObject> {
-        LOG.trace("GET /$resourceName/$id")
+        MDC.put("request.operation", "GET")
+        MDC.put("resource.name", resourceName)
+        MDC.put("resource.id", id)
+        LOG.trace("Enter: GET /$resourceName/$id")
         val timer = TimerClock().start()
 
         var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
@@ -74,7 +84,11 @@ class SwapiRestController(val environment: Environment) {
         } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            LOG.trace("GET /$resourceName/$id took ${timer.stop().durationSeconds()}")
+            val duration = timer.stop().durationSeconds()
+            MDC.put("duration.value", duration.toString())
+            MDC.put("duration.unit", "seconds")
+            LOG.trace("Leave: GET /$resourceName/$id took ${duration}s")
+            MDC.clear()
         }
     }
 

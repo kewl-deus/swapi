@@ -1,0 +1,1 @@
+docker build . -t custom/logstash:7.4.1

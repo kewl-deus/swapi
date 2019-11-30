@@ -25,7 +25,7 @@ object SwapiResourceRelations {
     )
 
     private val personRelations = listOf(
-            Multiple("films"), Single("homeworld"), Multiple("species"),
+            Multiple("films"), Single("homeworld", "planets"), Multiple("species"),
             Multiple("starships"), Multiple("vehicles")
     )
 
