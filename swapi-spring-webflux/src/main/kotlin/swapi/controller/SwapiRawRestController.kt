@@ -1,4 +1,4 @@
-package swapi
+package swapi.controller
 
 import org.slf4j.LoggerFactory
 import org.springframework.http.MediaType
@@ -24,8 +24,7 @@ class SwapiRawRestController {
     @GetMapping("/{resourceName}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
     fun getRawData(@PathVariable resourceName: String): Flux<String> {
-        LOG.trace("GET /raw/$resourceName")
-        val timer = TimerClock().start()
+        LOG.trace("Enter: GET /raw/$resourceName")
 
         val cls = SwapiRawRestController::class.java
         val resUrl = cls.getResource("/swapi/data/$resourceName.json")
@@ -33,7 +32,7 @@ class SwapiRawRestController {
 
         //val channel = Files.newByteChannel(resPath)
 
-        LOG.trace("GET /raw/$resourceName took ${timer.stop().durationSeconds()}")
+        LOG.trace("Leave: /raw/$resourceName")
         return fluxify(resPath)
         //return fluxify(Files.newByteChannel(resPath))
     }

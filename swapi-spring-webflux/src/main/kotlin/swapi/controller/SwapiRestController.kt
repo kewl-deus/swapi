@@ -1,27 +1,24 @@
-package swapi
+package swapi.controller
 
 import com.beust.klaxon.JsonArray
 import com.beust.klaxon.JsonBase
 import com.beust.klaxon.JsonObject
-import com.beust.klaxon.Parser
 import org.slf4j.LoggerFactory
 import org.slf4j.MDC
 import org.springframework.core.env.Environment
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
-import org.springframework.web.bind.annotation.ExceptionHandler
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.ResponseBody
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 import org.springframework.web.server.ResponseStatusException
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
+import swapi.SwapiParser
+import swapi.SwapiResourceRelations
 import swapi.util.TimerClock
 import java.io.FileNotFoundException
 import java.net.InetAddress
-import java.util.*
+import java.util.NoSuchElementException
+import kotlin.reflect.full.findAnnotation
 
 @RestController
 @RequestMapping("/swapi")
@@ -33,43 +30,30 @@ class SwapiRestController(val environment: Environment) {
 
     @GetMapping("/{resourceName}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
-    fun getAll(@PathVariable resourceName: String): Flux<JsonObject> {
-        MDC.put("request.operation", "GET")
+    fun getAll(@PathVariable resourceName: String): List<JsonObject> {
         MDC.put("resource.name", resourceName)
         LOG.trace("Enter: GET /$resourceName")
-        val timer = TimerClock().start()
-
         try {
             var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
-
-            //return Flux.fromIterable(jsonArray)
-            return Flux.create<JsonObject> { emitter ->
-                jsonArray.forEach { json ->
-                    LOG.trace("Emitting: {} {}", resourceName, json["id"])
-                    linkify(resourceName, json)
-                    emitter.next(json)
-                }
-                emitter.complete()
+            //use yield instead?
+            return jsonArray.map { json ->
+                linkify(resourceName, json)
+                json
             }
-        } catch (fnf: FileNotFoundException){
+        } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            val duration = timer.stop().durationSeconds()
-            MDC.put("duration.value", duration.toString())
-            MDC.put("duration.unit", "seconds")
-            LOG.trace("Leave: GET /$resourceName took ${timer.stop().durationSeconds()}s")
+            LOG.trace("Leave: GET /$resourceName")
             MDC.clear()
         }
     }
 
     @GetMapping("/{resourceName}/{id}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
-    fun getSingle(@PathVariable resourceName: String, @PathVariable id: String): Mono<JsonObject> {
-        MDC.put("request.operation", "GET")
+    fun getSingle(@PathVariable resourceName: String, @PathVariable id: String): JsonObject {
         MDC.put("resource.name", resourceName)
         MDC.put("resource.id", id)
         LOG.trace("Enter: GET /$resourceName/$id")
-        val timer = TimerClock().start()
 
         var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
         try {
@@ -78,16 +62,13 @@ class SwapiRestController(val environment: Environment) {
             }
             linkify(resourceName, result)
 
-            return Mono.just(result)
+            return result
         } catch (nse: NoSuchElementException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "No resource with id=$id found in $resourceName")
         } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            val duration = timer.stop().durationSeconds()
-            MDC.put("duration.value", duration.toString())
-            MDC.put("duration.unit", "seconds")
-            LOG.trace("Leave: GET /$resourceName/$id took ${duration}s")
+            LOG.trace("Leave: GET /$resourceName/$id")
             MDC.clear()
         }
     }
@@ -99,13 +80,12 @@ class SwapiRestController(val environment: Environment) {
             val data = json[rel.source]
             data?.let {
                 val links = linkify(rel, it as JsonBase)
-                val linkJsonArray = JsonArray<String>()
-                links.subscribe({ link -> linkJsonArray.add(link) }, null, { json[rel.source] = linkJsonArray })
+                json[rel.source] = JsonArray<String>(links.toList())
             }
         }
     }
 
-    private fun linkify(relation: SwapiResourceRelations.Relation, data: JsonBase): Flux<String> {
+    private fun linkify(relation: SwapiResourceRelations.Relation, data: JsonBase) = sequence {
         // Local address
         //InetAddress.getLocalHost().hostAddress;
         //InetAddress.getLocalHost().hostName;
@@ -115,26 +95,27 @@ class SwapiRestController(val environment: Environment) {
         val host = InetAddress.getLoopbackAddress().hostName;
         val port = environment.getProperty("server.port");
 
-        //val linkTemplate = "http://$host:$port/swapi/${relation.target}/"
-        val linkTemplate = "/swapi/${relation.target}/"
+        val requestMapping = SwapiRestController::class.findAnnotation<RequestMapping>()
+        val pathPrefix = requestMapping?.let { a ->
+            a.value.single()
+        }
 
-        return Flux.create { emitter ->
-            when (data) {
-                is JsonObject -> {
-                    emitter.next(linkTemplate + data["id"])
-                }
-                is JsonArray<*> -> {
-                    data.forEach {
-                        val json = it as JsonObject
-                        emitter.next(linkTemplate + json["id"])
-                    }
-                }
-                else -> {
-                    LOG.warn("$relation data is of unsupported type")
+        //val linkTemplate = "http://$host:$port$pathPrefix/${relation.target}/"
+        val linkTemplate = "$pathPrefix/${relation.target}/"
+
+        when (data) {
+            is JsonObject -> {
+                yield(linkTemplate + data["id"])
+            }
+            is JsonArray<*> -> {
+                data.forEach {
+                    val json = it as JsonObject
+                    yield(linkTemplate + json["id"])
                 }
             }
-            emitter.complete()
+            else -> {
+                LOG.warn("$relation data is of unsupported type")
+            }
         }
     }
-
 }

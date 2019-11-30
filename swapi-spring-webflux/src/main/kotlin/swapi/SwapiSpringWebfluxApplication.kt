@@ -1,5 +1,6 @@
 package swapi
 
+import ch.sbb.esta.openshift.gracefullshutdown.GracefulshutdownSpringApplication
 import com.beust.klaxon.Klaxon
 import io.dekorate.kubernetes.annotation.ImagePullPolicy
 import io.dekorate.kubernetes.annotation.KubernetesApplication
@@ -17,24 +18,25 @@ import swapi.persistence.FilmRepository
 @SpringBootApplication
 @EnableWebFlux
 @KubernetesApplication(
-        livenessProbe = Probe(httpActionPath = "/actuator/health"),
+        livenessProbe = Probe(httpActionPath = "/health/alive"),
         readinessProbe = Probe(httpActionPath = "/actuator/health"),
         serviceType = ServiceType.NodePort,
         imagePullPolicy = ImagePullPolicy.Always)
 class SwapiSpringWebfluxApplication {
-    private val log = LoggerFactory.getLogger(SwapiSpringWebfluxApplication::class.java)
+    private val LOG = LoggerFactory.getLogger(SwapiSpringWebfluxApplication::class.java)
 
     @Bean
     fun filmInsert(filmRepository: FilmRepository) = CommandLineRunner {
         val films = Klaxon().parseArray<Film>(SwapiResources.getResourceAsStream("films"))!!
         filmRepository.saveAll(films)
-        films?.map { it.title }.forEach(System.out::println)
+        //films?.map { it.title }.forEach(System.out::println)
     }
 
 }
 
 fun main(args: Array<String>) {
-    runApplication<SwapiSpringWebfluxApplication>(*args)
+    //runApplication<SwapiSpringWebfluxApplication>(*args)
+    GracefulshutdownSpringApplication.run(SwapiSpringWebfluxApplication::class.java, *args)
 }
 
 

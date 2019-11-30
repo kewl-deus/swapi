@@ -55,6 +55,8 @@ dependencies {
     //implementation("ch.qos.logback.contrib:logback-jackson:0.1.5")
     implementation("net.logstash.logback:logstash-logback-encoder:6.2")
 
+    //https://github.com/SchweizerischeBundesbahnen/springboot-graceful-shutdown
+    implementation("ch.sbb:springboot-graceful-shutdown:2.0.1")
 
     //implementation("org.springframework.hateoas:spring-hateoas:1.0.0.RELEASE")
 

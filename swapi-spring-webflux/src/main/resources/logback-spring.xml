@@ -12,6 +12,14 @@
         </layout>
     </appender>
 
+    <appender name="ConsoleJson"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+    </appender>
+
+
+    <!-- rollover daily and when the file reaches 10 MegaBytes -->
+    <!--
     <appender name="RollingFile"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOGS}/swapi-spring-webflux.log</file>
@@ -22,7 +30,6 @@
 
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- rollover daily and when the file reaches 10 MegaBytes -->
             <fileNamePattern>${LOGS}/archived/swapi-spring-webflux-%d{yyyy-MM-dd}.%i.log
             </fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
@@ -31,7 +38,9 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
+    -->
 
+    <!--
     <appender name="AsyncJsonFile" class="net.logstash.logback.appender.LoggingEventAsyncDisruptorAppender">
         <waitStrategyType>sleeping</waitStrategyType>
 
@@ -39,7 +48,6 @@
                   class="ch.qos.logback.core.rolling.RollingFileAppender">
             <file>${LOGS}/swapi-spring-webflux.json</file>
 
-            <!-- encoder class="net.logstash.logback.encoder.LogstashEncoder" / -->
             <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
                 <providers>
                     <mdc/>
@@ -47,16 +55,6 @@
                     <version/>
                     <logLevel/>
                     <loggerName/>
-                    <!--
-                    <pattern>
-                        <pattern>
-                            {
-                            "appName": "swapi-spring-webflux",
-                            "appVersion": "0.0.1-SNAPSHOT"
-                            }
-                        </pattern>
-                    </pattern>
-                    -->
                     <threadName/>
                     <message/>
                     <logstashMarkers/>
@@ -67,7 +65,6 @@
 
             <rollingPolicy
                     class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                <!-- rollover daily and when the file reaches 10 MegaBytes -->
                 <fileNamePattern>${LOGS}/archived/swapi-spring-webflux-%d{yyyy-MM-dd}.%i.json
                 </fileNamePattern>
                 <timeBasedFileNamingAndTriggeringPolicy
@@ -77,6 +74,7 @@
             </rollingPolicy>
         </appender>
     </appender>
+    -->
 
     <!--
     <appender name="Logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
@@ -101,24 +99,15 @@
 
     <!-- LOG everything at INFO level -->
     <root level="info">
-        <!-- appender-ref ref="RollingFile"/ -->
-        <!-- appender-ref ref="Logstash"/ -->
-        <appender-ref ref="AsyncJsonFile"/>
-        <appender-ref ref="Console"/>
+        <appender-ref ref="ConsoleJson"/>
     </root>
 
     <logger name="swapi" level="trace" additivity="false">
-        <!-- appender-ref ref="RollingFile"/ -->
-        <!-- appender-ref ref="Logstash"/ -->
-        <appender-ref ref="AsyncJsonFile"/>
-        <appender-ref ref="Console"/>
+        <appender-ref ref="ConsoleJson"/>
     </logger>
 
     <logger name="org.springframework.web" level="debug" additivity="false">
-        <!-- appender-ref ref="RollingFile"/ -->
-        <!-- appender-ref ref="Logstash"/ -->
-        <appender-ref ref="AsyncJsonFile"/>
-        <appender-ref ref="Console"/>
+        <appender-ref ref="ConsoleJson"/>
     </logger>
 
 </configuration>
