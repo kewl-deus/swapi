@@ -58,7 +58,8 @@ dependencies {
 
     //database
     runtimeOnly("org.postgresql:postgresql")
-    //runtimeOnly("mysql:mysql-connector-java")
+    runtimeOnly("mysql:mysql-connector-java")
+    runtimeOnly("org.hsqldb:hsqldb")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
