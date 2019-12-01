@@ -100,20 +100,20 @@
 
     <!-- LOG everything at INFO level -->
     <root level="info">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="Console"/>
     </root>
 
-    <logger name="swapi" level="debug" additivity="false">
-        <appender-ref ref="ConsoleJson"/>
+    <logger name="swapi" level="info" additivity="false">
+        <appender-ref ref="Console"/>
     </logger>
 
     <logger name="org.springframework.web" level="info" additivity="false">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="Console"/>
     </logger>
 
 
     <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="info">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="Console"/>
     </logger>
 
 

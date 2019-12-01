@@ -54,7 +54,7 @@ class MDCInsertingWebFilter : WebFilter {
 
 
     private fun putIfNotEmpty(key: String, value: String){
-        value?.let {
+        value.let {
             if (value.isNotBlank()) {
                 MDC.put(key, value)
             }

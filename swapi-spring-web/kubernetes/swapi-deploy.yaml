@@ -23,20 +23,20 @@ spec:
       containers:
         - name: "swapi-spring-web"
           image: "docker.local/swapi/swapi-spring-web:0.0.4-SNAPSHOT"
-          imagePullPolicy: "IfNotPresent"
+          imagePullPolicy: Always
           resources:
             requests:
               memory: "256Mi"
-              cpu: "200m"
+              cpu: "0.2"
             limits:
               memory: "512Mi"
-              cpu: "1000m"
+              cpu: "1.0"
           livenessProbe:
             httpGet:
               path: "/actuator/info"
               port: 8080
               scheme: "HTTP"
-            initialDelaySeconds: 10
+            initialDelaySeconds: 3
             periodSeconds: 30
             timeoutSeconds: 10
           ports:
@@ -48,7 +48,7 @@ spec:
               path: "/actuator/health"
               port: 8080
               scheme: "HTTP"
-            initialDelaySeconds: 10
+            initialDelaySeconds: 5
             periodSeconds: 30
             timeoutSeconds: 10
       imagePullSecrets:
