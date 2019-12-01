@@ -3,7 +3,7 @@ kind: "Deployment"
 metadata:
   labels:
     app: "swapi-spring-webflux"
-    version: "0.0.2-SNAPSHOT"
+    version: "0.0.3-SNAPSHOT"
     group: "swapi"
   name: "swapi-spring-webflux"
 spec:
@@ -11,18 +11,18 @@ spec:
   selector:
     matchLabels:
       app: "swapi-spring-webflux"
-      version: "0.0.2-SNAPSHOT"
+      version: "0.0.3-SNAPSHOT"
       group: "swapi"
   template:
     metadata:
       labels:
         app: "swapi-spring-webflux"
-        version: "0.0.2-SNAPSHOT"
+        version: "0.0.3-SNAPSHOT"
         group: "swapi"
     spec:
       containers:
         - name: "swapi-spring-webflux"
-          image: "docker.local/swapi/swapi-spring-webflux:0.0.2-SNAPSHOT"
+          image: "docker.local/swapi/swapi-spring-webflux:0.0.3-SNAPSHOT"
           imagePullPolicy: "IfNotPresent"
           livenessProbe:
             httpGet:

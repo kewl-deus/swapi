@@ -31,8 +31,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 
-    //runtimeOnly("io.project.reactor:reactor-core:3.3.0.RELEASE")
-
     /*********************
      * Kubernetes
      *********************/
