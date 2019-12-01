@@ -102,12 +102,18 @@
         <appender-ref ref="ConsoleJson"/>
     </root>
 
-    <logger name="swapi" level="trace" additivity="false">
+    <logger name="swapi" level="debug" additivity="false">
         <appender-ref ref="ConsoleJson"/>
     </logger>
 
-    <logger name="org.springframework.web" level="debug" additivity="false">
+    <logger name="org.springframework.web" level="info" additivity="false">
         <appender-ref ref="ConsoleJson"/>
     </logger>
+
+
+    <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="info">
+        <appender-ref ref="ConsoleJson"/>
+    </logger>
+
 
 </configuration>

@@ -14,7 +14,7 @@ class SwapiDbRestController(
         @Autowired
         val filmRepository: FilmRepository) {
 
-    private val LOG = LoggerFactory.getLogger(SwapiDbRestController::class.qualifiedName)
+    private val logger = LoggerFactory.getLogger(SwapiDbRestController::class.qualifiedName)
 
     //@GetMapping("/films/all", produces = [MediaType.APPLICATION_JSON_VALUE])
     //fun getFilms() = filmRepository.findAll()

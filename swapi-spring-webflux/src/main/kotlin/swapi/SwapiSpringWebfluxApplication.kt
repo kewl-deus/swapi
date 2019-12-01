@@ -9,21 +9,24 @@ import io.dekorate.kubernetes.annotation.ServiceType
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
+import org.springframework.core.io.buffer.DefaultDataBufferFactory
+import org.springframework.core.io.buffer.DataBufferFactory
 import org.springframework.web.reactive.config.EnableWebFlux
+import swapi.logic.SwapiResources
 import swapi.model.Film
 import swapi.persistence.FilmRepository
+
 
 @SpringBootApplication
 @EnableWebFlux
 @KubernetesApplication(
         livenessProbe = Probe(httpActionPath = "/health/alive"),
         readinessProbe = Probe(httpActionPath = "/actuator/health"),
-        serviceType = ServiceType.NodePort,
+        serviceType = ServiceType.LoadBalancer,
         imagePullPolicy = ImagePullPolicy.Always)
 class SwapiSpringWebfluxApplication {
-    private val LOG = LoggerFactory.getLogger(SwapiSpringWebfluxApplication::class.java)
+    private val logger = LoggerFactory.getLogger(SwapiSpringWebfluxApplication::class.java)
 
     @Bean
     fun filmInsert(filmRepository: FilmRepository) = CommandLineRunner {
@@ -32,6 +35,21 @@ class SwapiSpringWebfluxApplication {
         //films?.map { it.title }.forEach(System.out::println)
     }
 
+    @Bean
+    fun dataBufferFactory(): DataBufferFactory = DefaultDataBufferFactory()
+
+    /*
+    @Bean
+    fun requestLoggingFilter(): CommonsRequestLoggingFilter? {
+        val filter = CommonsRequestLoggingFilter()
+        filter.setIncludeQueryString(true)
+        filter.setIncludePayload(true)
+        filter.setMaxPayloadLength(10000)
+        filter.setIncludeHeaders(true)
+        filter.setAfterMessagePrefix("REQUEST DATA : ")
+        return filter
+    }
+    */
 }
 
 fun main(args: Array<String>) {

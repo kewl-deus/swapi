@@ -10,11 +10,8 @@ import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.server.ResponseStatusException
-import reactor.core.publisher.Flux
-import reactor.core.publisher.Mono
-import swapi.SwapiParser
-import swapi.SwapiResourceRelations
-import swapi.util.TimerClock
+import swapi.logic.SwapiParser
+import swapi.logic.SwapiResourceRelations
 import java.io.FileNotFoundException
 import java.net.InetAddress
 import java.util.NoSuchElementException
@@ -24,15 +21,34 @@ import kotlin.reflect.full.findAnnotation
 @RequestMapping("/swapi")
 class SwapiRestController(val environment: Environment) {
 
-    private val LOG = LoggerFactory.getLogger(SwapiRestController::class.qualifiedName)
+    private val logger = LoggerFactory.getLogger(SwapiRestController::class.qualifiedName)
 
     private val parser = SwapiParser()
+
+    private val linkPrefix: String by lazy {
+        // Local address
+        //InetAddress.getLocalHost().hostAddress;
+        //InetAddress.getLocalHost().hostName;
+
+        // Remote address
+        //val host = InetAddress.getLoopbackAddress().hostAddress;
+        val host = InetAddress.getLoopbackAddress().hostName;
+        val port = environment.getProperty("server.port");
+
+        val requestMapping = this::class.findAnnotation<RequestMapping>()
+        val pathPrefix = requestMapping?.let { a ->
+            a.value.single()
+        }
+
+        //val urlPrefix = "http://$host:$port$pathPrefix"
+        pathPrefix ?: ""
+    }
 
     @GetMapping("/{resourceName}", produces = [MediaType.APPLICATION_JSON_VALUE])
     @ResponseBody
     fun getAll(@PathVariable resourceName: String): List<JsonObject> {
         MDC.put("resource.name", resourceName)
-        LOG.trace("Enter: GET /$resourceName")
+        logger.debug("Enter: GET /{}", resourceName)
         try {
             var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
             //use yield instead?
@@ -43,8 +59,8 @@ class SwapiRestController(val environment: Environment) {
         } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            LOG.trace("Leave: GET /$resourceName")
-            MDC.clear()
+            logger.debug("Leave: GET /{}", resourceName)
+            MDC.remove("resource.name")
         }
     }
 
@@ -53,7 +69,7 @@ class SwapiRestController(val environment: Environment) {
     fun getSingle(@PathVariable resourceName: String, @PathVariable id: String): JsonObject {
         MDC.put("resource.name", resourceName)
         MDC.put("resource.id", id)
-        LOG.trace("Enter: GET /$resourceName/$id")
+        logger.debug("Enter: GET /{}/{}", resourceName, id)
 
         var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
         try {
@@ -68,15 +84,16 @@ class SwapiRestController(val environment: Environment) {
         } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
-            LOG.trace("Leave: GET /$resourceName/$id")
-            MDC.clear()
+            logger.debug("Leave: GET /{}/{}", resourceName, id)
+            MDC.remove("resource.name")
+            MDC.remove("resource.id")
         }
     }
 
     private fun linkify(resourceName: String, json: JsonObject) {
         val relations = SwapiResourceRelations.getRelations(resourceName)
         relations.forEach { rel ->
-            LOG.trace("Linkify $resourceName $rel")
+            logger.trace("Linkify {} {}", resourceName, rel)
             val data = json[rel.source]
             data?.let {
                 val links = linkify(rel, it as JsonBase)
@@ -86,22 +103,7 @@ class SwapiRestController(val environment: Environment) {
     }
 
     private fun linkify(relation: SwapiResourceRelations.Relation, data: JsonBase) = sequence {
-        // Local address
-        //InetAddress.getLocalHost().hostAddress;
-        //InetAddress.getLocalHost().hostName;
-
-        // Remote address
-        //val host = InetAddress.getLoopbackAddress().hostAddress;
-        val host = InetAddress.getLoopbackAddress().hostName;
-        val port = environment.getProperty("server.port");
-
-        val requestMapping = SwapiRestController::class.findAnnotation<RequestMapping>()
-        val pathPrefix = requestMapping?.let { a ->
-            a.value.single()
-        }
-
-        //val linkTemplate = "http://$host:$port$pathPrefix/${relation.target}/"
-        val linkTemplate = "$pathPrefix/${relation.target}/"
+        val linkTemplate = "$linkPrefix/${relation.target}/"
 
         when (data) {
             is JsonObject -> {
@@ -114,7 +116,7 @@ class SwapiRestController(val environment: Environment) {
                 }
             }
             else -> {
-                LOG.warn("$relation data is of unsupported type")
+                logger.warn("$relation data is of unsupported type")
             }
         }
     }

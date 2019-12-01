@@ -31,6 +31,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 
+    //runtimeOnly("io.project.reactor:reactor-core:3.3.0.RELEASE")
+
     /*********************
      * Kubernetes
      *********************/
@@ -54,6 +56,9 @@ dependencies {
     //implementation("ch.qos.logback.contrib:logback-json-classic:0.1.5")
     //implementation("ch.qos.logback.contrib:logback-jackson:0.1.5")
     implementation("net.logstash.logback:logstash-logback-encoder:6.2")
+
+    //metrics
+    //implementation("io.micrometer:micrometer-registry-prometheus:latest.release")
 
     //https://github.com/SchweizerischeBundesbahnen/springboot-graceful-shutdown
     implementation("ch.sbb:springboot-graceful-shutdown:2.0.1")

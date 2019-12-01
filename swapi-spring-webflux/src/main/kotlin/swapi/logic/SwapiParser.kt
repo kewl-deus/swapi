@@ -1,4 +1,4 @@
-package swapi
+package swapi.logic
 
 import com.beust.klaxon.Parser
 import java.io.FileNotFoundException

@@ -1,4 +1,4 @@
-package swapi
+package swapi.logic
 
 import java.io.InputStream
 
