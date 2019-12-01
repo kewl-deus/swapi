@@ -1,0 +1,22 @@
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://kworker1:31472/swapi"
+    username: nouser
+    password: nopw
+
+  jpa:
+    properties:
+      javax:
+        persistence:
+          schema-generation:
+            create-source: metadata
+            scripts:
+              action: create
+              create-target: build/generated-sources/sql/postgresql/create-model.sql
+    show-sql: true
+    #generate-ddl: true
+    #database-platform:
+    #hibernate:
+    #  ddl-auto: update

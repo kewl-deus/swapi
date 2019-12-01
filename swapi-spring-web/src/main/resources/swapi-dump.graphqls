@@ -1,0 +1,142 @@
+query dumpFilms {
+    allFilms {
+        id
+        episodeId
+        title
+        director
+        producers
+        openingCrawl
+        releaseDate
+        characters {
+            id
+        }
+        planets {
+            id
+        }
+        species {
+            id
+        }
+        starships {
+            id
+        }
+        vehicles {
+            id
+        }
+    }
+}
+
+query dumpPersons {
+    allPersons {
+        id
+        name
+        birthYear
+        eyeColor
+        gender
+        hairColor
+        height
+        homeworld {
+            id
+        }
+        mass
+        skinColor
+        species {
+            id
+        }
+        starships {
+            id
+        }
+        vehicles {
+            id
+        }
+        films {
+            id
+        }
+    }
+}
+
+query dumpPlanets {
+    allPlanets {
+        id
+        name
+        climate
+        diameter
+        gravity
+        orbitalPeriod
+        population
+        residents {
+            id
+        }
+        films {
+            id
+        }
+        rotationPeriod
+        surfaceWater
+        terrain
+    }
+}
+
+query dumpSpecies {
+    allSpecies {
+        id
+        name
+        averageHeight
+        averageLifespan
+        classification
+        designation
+        eyeColor
+        hairColor
+        language
+        skinColor
+        films {
+            id
+        }
+        people {
+            id
+        }
+    }
+}
+
+query dumpStarships {
+    allStarships {
+        id
+        name
+        cargoCapacity
+        class
+        crew
+        costInCredits
+        hyperdriveRating
+        length
+        manufacturer
+        maxAtmospheringSpeed
+        mglt
+        passengers
+        films {
+            id
+        }
+        pilots {
+            id
+        }
+    }
+}
+
+query dumpVehicles {
+    allVehicles {
+        id
+        name
+        class
+        consumables
+        costInCredits
+        crew
+        length
+        manufacturer
+        maxAtmospheringSpeed
+        model
+        passengers
+        pilots {
+            id
+        }
+        films {
+            id
+        }
+    }
+}

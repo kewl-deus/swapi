@@ -12,7 +12,7 @@ filebeat:
 
 fields:
   app.name: swapi-spring-webflux
-  app.version: 0.0.3-SNAPSHOT
+  app.version: 0.0.4-SNAPSHOT
   logsource.stage: dev
 
 output:

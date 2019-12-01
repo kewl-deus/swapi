@@ -22,7 +22,7 @@
     <!--
     <appender name="RollingFile"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOGS}/swapi-spring-webflux.log</file>
+        <file>${LOGS}/swapi-spring-web.log</file>
         <encoder
                 class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
@@ -30,7 +30,7 @@
 
         <rollingPolicy
                 class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOGS}/archived/swapi-spring-webflux-%d{yyyy-MM-dd}.%i.log
+            <fileNamePattern>${LOGS}/archived/swapi-spring-web-%d{yyyy-MM-dd}.%i.log
             </fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
@@ -47,7 +47,7 @@
 
         <appender name="JsonFile"
                   class="ch.qos.logback.core.rolling.RollingFileAppender">
-            <file>${LOGS}/swapi-spring-webflux.json</file>
+            <file>${LOGS}/swapi-spring-web.json</file>
             <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
             <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
                 <providers>
@@ -66,7 +66,7 @@
 
             <rollingPolicy
                     class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                <fileNamePattern>${LOGS}/archived/swapi-spring-webflux-%d{yyyy-MM-dd}.%i.json
+                <fileNamePattern>${LOGS}/archived/swapi-spring-web-%d{yyyy-MM-dd}.%i.json
                 </fileNamePattern>
                 <timeBasedFileNamingAndTriggeringPolicy
                         class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">

@@ -2,28 +2,35 @@ apiVersion: "apps/v1"
 kind: "Deployment"
 metadata:
   labels:
-    app: "swapi-spring-webflux"
+    app: "swapi-spring-web"
     version: "0.0.4-SNAPSHOT"
     group: "swapi"
-  name: "swapi-spring-webflux"
+  name: "swapi-spring-web"
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: "swapi-spring-webflux"
+      app: "swapi-spring-web"
       version: "0.0.4-SNAPSHOT"
       group: "swapi"
   template:
     metadata:
       labels:
-        app: "swapi-spring-webflux"
+        app: "swapi-spring-web"
         version: "0.0.4-SNAPSHOT"
         group: "swapi"
     spec:
       containers:
-        - name: "swapi-spring-webflux"
-          image: "docker.local/swapi/swapi-spring-webflux:0.0.4-SNAPSHOT"
+        - name: "swapi-spring-web"
+          image: "docker.local/swapi/swapi-spring-web:0.0.4-SNAPSHOT"
           imagePullPolicy: "IfNotPresent"
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "200m"
+            limits:
+              memory: "512Mi"
+              cpu: "1000m"
           livenessProbe:
             httpGet:
               path: "/actuator/info"
@@ -36,21 +43,6 @@ spec:
             - containerPort: 8080
               name: "http"
               protocol: "TCP"
-          env:
-            - name: "spring.profiles.active"
-              value: postgresql
-            - name: "spring.datasource.url"
-              value: "jdbc:postgresql://swapi-db:5432/swapi"
-            - name: "spring.datasource.username"
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-db-secret
-                  key: POSTGRES_USER
-            - name: "spring.datasource.password"
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-db-secret
-                  key: POSTGRES_PASSWORD
           readinessProbe:
             httpGet:
               path: "/actuator/health"

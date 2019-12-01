@@ -1,0 +1,3137 @@
+[
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 77,
+        "name": "Luke Skywalker",
+        "hairColor": [
+          "BLONDE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 172,
+        "vehicles": [
+          {
+            "id": "cj0o79rljibu701728o13eaum"
+          },
+          {
+            "id": "cj0o79rosibyo0172tgbwkjdh"
+          }
+        ],
+        "birthYear": "19BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9p8yewci0130wjy4o5fa",
+        "starships": [
+          {
+            "id": "cj0nwtqreq4y00114p4a447ed"
+          },
+          {
+            "id": "cj0nwtqt5q4z50114u4lejke2"
+          }
+        ],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwddwec0177xpqavlb9"
+          }
+        ],
+        "mass": 75,
+        "name": "C-3PO",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 167,
+        "vehicles": [],
+        "birthYear": "112BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "GOLD"
+        ],
+        "id": "cj0nv9p9gewck0130h8f8esy0",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "UNKNOWN"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwddwec0177xpqavlb9"
+          }
+        ],
+        "mass": 32,
+        "name": "R2-D2",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 96,
+        "vehicles": [],
+        "birthYear": "33BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "WHITE",
+          "BLUE"
+        ],
+        "id": "cj0nv9p9wewcm01302r07xzna",
+        "starships": [],
+        "eyeColor": [
+          "RED"
+        ],
+        "gender": "UNKNOWN"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 136,
+        "name": "Darth Vader",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 202,
+        "vehicles": [],
+        "birthYear": "41.9BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "WHITE"
+        ],
+        "id": "cj0nv9pa9ewco0130v4ocnhed",
+        "starships": [
+          {
+            "id": "cj0nwtqrtq4yz0114o0i03199"
+          }
+        ],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 49,
+        "name": "Leia Organa",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m30ms0gk01726hgbrd0s"
+        },
+        "height": 150,
+        "vehicles": [
+          {
+            "id": "cj0o79rosibyo0172tgbwkjdh"
+          }
+        ],
+        "birthYear": "19BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pakewcq01303eu3xuy1",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 120,
+        "name": "Owen Lars",
+        "hairColor": [
+          "BROWN",
+          "GREY"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 178,
+        "vehicles": [],
+        "birthYear": "52BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9paxewcs01300tqz2uvu",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 75,
+        "name": "Beru Whitesun lars",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 165,
+        "vehicles": [],
+        "birthYear": "47BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pbaewcu0130s0n2en0f",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwddwec0177xpqavlb9"
+          }
+        ],
+        "mass": 32,
+        "name": "R5-D4",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 97,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "skinColor": [
+          "WHITE",
+          "RED"
+        ],
+        "id": "cj0nv9pblewcw0130k575f0nj",
+        "starships": [],
+        "eyeColor": [
+          "RED"
+        ],
+        "gender": "UNKNOWN"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 84,
+        "name": "Biggs Darklighter",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": "24BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pbxewcy0130rl03ub1e",
+        "starships": [
+          {
+            "id": "cj0nwtqreq4y00114p4a447ed"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 77,
+        "name": "Obi-Wan Kenobi",
+        "hairColor": [
+          "AUBURN",
+          "WHITE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m384s0lt01722pqea08p"
+        },
+        "height": 182,
+        "vehicles": [
+          {
+            "id": "cj0o79rqwibz10172oholdg70"
+          }
+        ],
+        "birthYear": "57BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pc9ewd00130o0n3f3m1",
+        "starships": [
+          {
+            "id": "cj0nwtqxcq57u01147v9mcrzf"
+          },
+          {
+            "id": "cj0nwtqytq5800114zjhy9gcj"
+          },
+          {
+            "id": "cj0nwtr2lq5ck01145j6ztwzk"
+          },
+          {
+            "id": "cj0nwtr2xq5cm0114vpr8asu9"
+          },
+          {
+            "id": "cj0nwtr3zq5cs0114189m08ze"
+          }
+        ],
+        "eyeColor": [
+          "BLUEGREY"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 84,
+        "name": "Anakin Skywalker",
+        "hairColor": [
+          "BLONDE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 188,
+        "vehicles": [
+          {
+            "id": "cj0o79rrmibz50172ql49g044"
+          },
+          {
+            "id": "cj0o79rscibz90172cb6csifj"
+          }
+        ],
+        "birthYear": "41.9BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pcjewd20130zu2qp5ml",
+        "starships": [
+          {
+            "id": "cj0nwtqvfq53i0114d6kym9f4"
+          },
+          {
+            "id": "cj0nwtqytq5800114zjhy9gcj"
+          },
+          {
+            "id": "cj0nwtr2xq5cm0114vpr8asu9"
+          }
+        ],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Wilhuff Tarkin",
+        "hairColor": [
+          "AUBURN",
+          "GREY"
+        ],
+        "homeworld": {
+          "id": "cj0o7m38hs0lw0172cf2ag9t1"
+        },
+        "height": 180,
+        "vehicles": [],
+        "birthYear": "64BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pcuewd40130f21rvg6z",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opw3dwea0177u3d86jvi"
+          }
+        ],
+        "mass": 112,
+        "name": "Chewbacca",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m35ss0lg0172sxjc6agc"
+        },
+        "height": 228,
+        "vehicles": [
+          {
+            "id": "cj0o79rmvibye0172gv5bn2me"
+          }
+        ],
+        "birthYear": "200BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "UNKNOWN"
+        ],
+        "id": "cj0nv9pd9ewd601306f4ackea",
+        "starships": [
+          {
+            "id": "cj0nwtqpzq4tt01142nh7e9i4"
+          },
+          {
+            "id": "cj0nwtqt5q4z50114u4lejke2"
+          }
+        ],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 80,
+        "name": "Han Solo",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m38ws0py0172st3yhqvj"
+        },
+        "height": 180,
+        "vehicles": [],
+        "birthYear": "29BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pdlewd80130bs5vgryn",
+        "starships": [
+          {
+            "id": "cj0nwtqpzq4tt01142nh7e9i4"
+          },
+          {
+            "id": "cj0nwtqt5q4z50114u4lejke2"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwxdweg0177ppw18k2e"
+          }
+        ],
+        "mass": 74,
+        "name": "Greedo",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m39es0q001726ebkygf8"
+        },
+        "height": 173,
+        "vehicles": [],
+        "birthYear": "44BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9pdvewda0130vnxtkgce",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opm5dw8f0177zsuuh261"
+          }
+        ],
+        "mass": 1358,
+        "name": "Jabba Desilijic Tiure",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m39rs0q201723nghx0p1"
+        },
+        "height": 175,
+        "vehicles": [],
+        "birthYear": "600BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "GREENTAN",
+          "BROWN"
+        ],
+        "id": "cj0nv9pe7ewdd0130ldes5pcj",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "HERMAPHRODITE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 77,
+        "name": "Wedge Antilles",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m38ws0py0172st3yhqvj"
+        },
+        "height": 170,
+        "vehicles": [
+          {
+            "id": "cj0o79rljibu701728o13eaum"
+          }
+        ],
+        "birthYear": "21BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9peiewhf013011i9a4h2",
+        "starships": [
+          {
+            "id": "cj0nwtqreq4y00114p4a447ed"
+          }
+        ],
+        "eyeColor": [
+          "HAZEL"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 110,
+        "name": "Jek Tono Porkins",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3ags0q70172h987hloz"
+        },
+        "height": 180,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9peuewhh0130il9ua6bh",
+        "starships": [
+          {
+            "id": "cj0nwtqreq4y00114p4a447ed"
+          }
+        ],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opmmdw8h0177mapdmzo9"
+          }
+        ],
+        "mass": 17,
+        "name": "Yoda",
+        "hairColor": [
+          "WHITE"
+        ],
+        "homeworld": null,
+        "height": 66,
+        "vehicles": [],
+        "birthYear": "896BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9pfeewhj0130sw8tduhq",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 75,
+        "name": "Palpatine",
+        "hairColor": [
+          "GREY"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 170,
+        "vehicles": [],
+        "birthYear": "82BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0nv9pfsewhm0130365w08pz",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 78.2,
+        "name": "Boba Fett",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m34cs0l80172xvnmsjq0"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": "31.5BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pg3ewho0130tijy6bk9",
+        "starships": [
+          {
+            "id": "cj0nwtqsrq4z30114votsy21g"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwddwec0177xpqavlb9"
+          }
+        ],
+        "mass": 140,
+        "name": "IG-88",
+        "hairColor": null,
+        "homeworld": null,
+        "height": 200,
+        "vehicles": [],
+        "birthYear": "15BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "METAL"
+        ],
+        "id": "cj0nv9pgfewhq013075n4x8ms",
+        "starships": [],
+        "eyeColor": [
+          "RED"
+        ],
+        "gender": null
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opn3dw8j0177h9f59me8"
+          }
+        ],
+        "mass": 113,
+        "name": "Bossk",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3b4s0qb01722khalvck"
+        },
+        "height": 190,
+        "vehicles": [],
+        "birthYear": "53BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9pgpewhs01308btlvm1c",
+        "starships": [],
+        "eyeColor": [
+          "RED"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 79,
+        "name": "Lando Calrissian",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3bis0qe0172bhy753x6"
+        },
+        "height": 177,
+        "vehicles": [],
+        "birthYear": "31BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9ph2ewhu0130neejtdm7",
+        "starships": [
+          {
+            "id": "cj0nwtqpzq4tt01142nh7e9i4"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 79,
+        "name": "Lobot",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m32ns0l00172kmuax1av"
+        },
+        "height": 175,
+        "vehicles": [],
+        "birthYear": "37BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9phcewhw0130dyny3mo2",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opngdw8l01774xxgzh4j"
+          }
+        ],
+        "mass": 83,
+        "name": "Ackbar",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3bts0qg0172bjionq4d"
+        },
+        "height": 180,
+        "vehicles": [],
+        "birthYear": "41BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "BROWNMOTTLE"
+        ],
+        "id": "cj0nv9phmewhy0130he5s0k5r",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Mon Mothma",
+        "hairColor": [
+          "AUBURN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3cds0ui0172a192en8k"
+        },
+        "height": 150,
+        "vehicles": [],
+        "birthYear": "48BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9phwewi00130bpgkvz0r",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Arvel Crynyd",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": null,
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pi6ewi201308xa3cuha",
+        "starships": [
+          {
+            "id": "cj0nwtqudq53b0114s5id3anc"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opnrdw8n0177jatafsjk"
+          }
+        ],
+        "mass": 20,
+        "name": "Wicket Systri Warrick",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m30ms0gk01726hgbrd0s"
+        },
+        "height": 88,
+        "vehicles": [],
+        "birthYear": "8BBY",
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0nv9pigewi40130cp7jlnao",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opo3dwaq0177x2y9eehp"
+          }
+        ],
+        "mass": 68,
+        "name": "Nien Nunb",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3cps0ul0172dnckj7vj"
+        },
+        "height": 160,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9piqewi601303n0rve5n",
+        "starships": [
+          {
+            "id": "cj0nwtqpzq4tt01142nh7e9i4"
+          }
+        ],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 89,
+        "name": "Qui-Gon Jinn",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": null,
+        "height": 193,
+        "vehicles": [
+          {
+            "id": "cj0o79rqwibz10172oholdg70"
+          }
+        ],
+        "birthYear": "92BBY",
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pj0ewi80130nht96xcw",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opoedwcs0177sacgz8jb"
+          }
+        ],
+        "mass": 90,
+        "name": "Nute Gunray",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m37es0lo0172v4l4x70l"
+        },
+        "height": 191,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "MOTTLEDGREEN"
+        ],
+        "id": "cj0nv9pjaewia01305czgoebo",
+        "starships": [],
+        "eyeColor": [
+          "RED"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Finis Valorum",
+        "hairColor": [
+          "BLONDE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33qs0l60172g6p327fa"
+        },
+        "height": 170,
+        "vehicles": [],
+        "birthYear": "91BBY",
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pjkewic013050cciod5",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opoqdwcu0177cz9ggnap"
+          }
+        ],
+        "mass": 66,
+        "name": "Jar Jar Binks",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 196,
+        "vehicles": [],
+        "birthYear": "52BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "ORANGE"
+        ],
+        "id": "cj0nv9pjuewie01304ocsb7i6",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opoqdwcu0177cz9ggnap"
+          }
+        ],
+        "mass": 82,
+        "name": "Roos Tarpals",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 224,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9pk5ewig0130svvx2s2h",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opoqdwcu0177cz9ggnap"
+          }
+        ],
+        "mass": null,
+        "name": "Rugor Nass",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 206,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9pkgewii0130sbh60q4w",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [],
+        "mass": null,
+        "name": "Ric Olié",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pkqewik013009i8sau1",
+        "starships": [
+          {
+            "id": "cj0nwtqvrq53k0114b291ao52"
+          }
+        ],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opp1dwcw01779oqfsoxk"
+          }
+        ],
+        "mass": null,
+        "name": "Watto",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3d2s0un0172gxr4utv1"
+        },
+        "height": 137,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BLUE",
+          "GREY"
+        ],
+        "id": "cj0nv9pl4ewim0130iuckr8ut",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oppcdwcy0177ie3pkkve"
+          }
+        ],
+        "mass": 40,
+        "name": "Sebulba",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3dgs0up0172k9xzj00v"
+        },
+        "height": 112,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "RED"
+        ],
+        "id": "cj0nv9plfewip0130c5k4auth",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [],
+        "mass": null,
+        "name": "Quarsh Panaka",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": "62BBY",
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9plqewir0130xsb2qhjw",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Shmi Skywalker",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 163,
+        "vehicles": [],
+        "birthYear": "72BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pm7ewmu0130ajkyh72d",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oprkdwde0177smwtsnz9"
+          }
+        ],
+        "mass": 80,
+        "name": "Darth Maul",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3drs0ur0172fdd5ofjt"
+        },
+        "height": 175,
+        "vehicles": [
+          {
+            "id": "cj0o79rr9ibz30172h0hm01ek"
+          }
+        ],
+        "birthYear": "54BBY",
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "RED"
+        ],
+        "id": "cj0nv9pmjewmw0130smxc3xtg",
+        "starships": [
+          {
+            "id": "cj0nwtqw4q53m0114jllt1kvp"
+          }
+        ],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oppmdwd00177085bu89e"
+          }
+        ],
+        "mass": null,
+        "name": "Bib Fortuna",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3e4s0uu0172fjlmos13"
+        },
+        "height": 180,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0nv9pmwewmz0130veuttq0v",
+        "starships": [],
+        "eyeColor": [
+          "PINK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oppmdwd00177085bu89e"
+          }
+        ],
+        "mass": 55,
+        "name": "Ayla Secura",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3e4s0uu0172fjlmos13"
+        },
+        "height": 178,
+        "vehicles": [],
+        "birthYear": "48BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BLUE"
+        ],
+        "id": "cj0nv9pn7ewn10130pjfdjhzs",
+        "starships": [],
+        "eyeColor": [
+          "HAZEL"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opq7dwd40177ubdpeqyn"
+          }
+        ],
+        "mass": 45,
+        "name": "Dud Bolt",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3ess0yy0172cwcvte2o"
+        },
+        "height": 94,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BLUE",
+          "GREY"
+        ],
+        "id": "cj0nv9pnhewn30130ite82hqe",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opqhdwd601777ibv9jgd"
+          }
+        ],
+        "mass": null,
+        "name": "Gasgano",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3f4s0z001722x75zg88"
+        },
+        "height": 122,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "WHITE",
+          "BLUE"
+        ],
+        "id": "cj0nv9pnrewn50130hnrutky4",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opqqdwd80177j34nt1vg"
+          }
+        ],
+        "mass": 65,
+        "name": "Ben Quadinaros",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3fgs0z201726py8v0i4"
+        },
+        "height": 163,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "GREEN",
+          "YELLOW"
+        ],
+        "id": "cj0nv9po1ewn70130a1bf76ks",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 84,
+        "name": "Mace Windu",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3fus0z40172wr2a1r4k"
+        },
+        "height": 188,
+        "vehicles": [],
+        "birthYear": "72BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9pobewn90130jrqyuflj",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opr0dwda0177ngya0itd"
+          }
+        ],
+        "mass": 82,
+        "name": "Ki-Adi-Mundi",
+        "hairColor": [
+          "WHITE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3g6s0z601723omquq6s"
+        },
+        "height": 198,
+        "vehicles": [],
+        "birthYear": "92BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0nv9polewnb0130gzslto9k",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opradwdc0177ijaz12sa"
+          }
+        ],
+        "mass": 87,
+        "name": "Kit Fisto",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3gks0z80172fc438aa4"
+        },
+        "height": 196,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9povewqh0130rmmoxrdn",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oprkdwde0177smwtsnz9"
+          }
+        ],
+        "mass": null,
+        "name": "Eeth Koth",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3h9s0za0172xkjv0uli"
+        },
+        "height": 171,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0nv9pp6ewrf0130jmvs9sif",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oprudwdg0177bo2piyvx"
+          }
+        ],
+        "mass": 50,
+        "name": "Adi Gallia",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m33qs0l60172g6p327fa"
+        },
+        "height": 184,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9pq1ewrh0130n96scghp",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9ops4dwdi0177ccep57wn"
+          }
+        ],
+        "mass": null,
+        "name": "Saesee Tiin",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3hys13f0172afdugy1e"
+        },
+        "height": 188,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0nv9pqeewrk0130hytbto03",
+        "starships": [],
+        "eyeColor": [
+          "ORANGE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opsedwdk0177g9ora8nm"
+          }
+        ],
+        "mass": null,
+        "name": "Yarael Poof",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3ibs13h0172wtepqat9"
+        },
+        "height": 264,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "WHITE"
+        ],
+        "id": "cj0nv9pqqewrm0130dcgnl1yq",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opsodwdm0177wzzl6gof"
+          }
+        ],
+        "mass": 80,
+        "name": "Plo Koon",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3ios13l0172lbzyrgm1"
+        },
+        "height": 188,
+        "vehicles": [],
+        "birthYear": "22BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "ORANGE"
+        ],
+        "id": "cj0nv9pqzewro0130goxvqygc",
+        "starships": [
+          {
+            "id": "cj0nwtqxcq57u01147v9mcrzf"
+          }
+        ],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opszdwdo0177uy5qsas6"
+          }
+        ],
+        "mass": null,
+        "name": "Mas Amedda",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3j1s13p0172tzcsikaa"
+        },
+        "height": 196,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BLUE"
+        ],
+        "id": "cj0nv9praewrq01308qb59djk",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 85,
+        "name": "Gregar Typho",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 185,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9prkewrs0130ywj2hmre",
+        "starships": [
+          {
+            "id": "cj0nwtqvfq53i0114d6kym9f4"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Cordé",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 157,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pruewru0130e9dh7675",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Cliegg Lars",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3mzs1ap0172bipe927s"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": "82BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9ps4ewrw0130n97oa08q",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opt8dwdq0177qt1wry91"
+          }
+        ],
+        "mass": 80,
+        "name": "Poggle the Lesser",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m34ps0la0172ynawstyk"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREEN"
+        ],
+        "id": "cj0nv9pseewry013092e6vgwv",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9optjdwds0177h3vamlnm"
+          }
+        ],
+        "mass": 56.2,
+        "name": "Luminara Unduli",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": null,
+        "height": 170,
+        "vehicles": [],
+        "birthYear": "58BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "YELLOW"
+        ],
+        "id": "cj0nv9psoews001308t8jlfpl",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9optjdwds0177h3vamlnm"
+          }
+        ],
+        "mass": 50,
+        "name": "Barriss Offee",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3jes13t0172r2nk158g"
+        },
+        "height": 166,
+        "vehicles": [],
+        "birthYear": "40BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "YELLOW"
+        ],
+        "id": "cj0nv9psyews20130wze1ip97",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Dormé",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 165,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pt8ews40130dekjuwvk",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 80,
+        "name": "Dooku",
+        "hairColor": [
+          "WHITE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3jqs13y0172x84xryf5"
+        },
+        "height": 193,
+        "vehicles": [
+          {
+            "id": "cj0o79rxaic010172o1dggvnc"
+          }
+        ],
+        "birthYear": "102BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9ptjews60130a8hz99qg",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Bail Prestor Organa",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m30ms0gk01726hgbrd0s"
+        },
+        "height": 191,
+        "vehicles": [],
+        "birthYear": "67BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "TAN"
+        ],
+        "id": "cj0nv9pttews80130as2uv4x0",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 79,
+        "name": "Jango Fett",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3k4s15t0172re9e5e3s"
+        },
+        "height": 183,
+        "vehicles": [],
+        "birthYear": "66BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "TAN"
+        ],
+        "id": "cj0nv9pu2ewsa0130famuiscl",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opttdwdu0177dmazvw2v"
+          }
+        ],
+        "mass": 55,
+        "name": "Zam Wesell",
+        "hairColor": [
+          "BLONDE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3kjs19z0172i6qgebrs"
+        },
+        "height": 168,
+        "vehicles": [
+          {
+            "id": "cj0o79rrzibz7017243nxex4d"
+          }
+        ],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "FAIR",
+          "GREEN",
+          "YELLOW"
+        ],
+        "id": "cj0nv9pudewsc0130bjbqmp9x",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opu3dwdw0177bg4vtp00"
+          }
+        ],
+        "mass": 102,
+        "name": "Dexter Jettster",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3kvs1a20172r4tmj560"
+        },
+        "height": 198,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0nv9punewse0130uek8j4ee",
+        "starships": [],
+        "eyeColor": [
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opucdwdy0177717v5f5p"
+          }
+        ],
+        "mass": 88,
+        "name": "Lama Su",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m34cs0l80172xvnmsjq0"
+        },
+        "height": 229,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9puxewsg0130dvk9i1qx",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opucdwdy0177717v5f5p"
+          }
+        ],
+        "mass": null,
+        "name": "Taun We",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m34cs0l80172xvnmsjq0"
+        },
+        "height": 213,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9pv8ewsi0130haxytem4",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Jocasta Nu",
+        "hairColor": [
+          "WHITE"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33qs0l60172g6p327fa"
+        },
+        "height": 167,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "FAIR"
+        ],
+        "id": "cj0nv9pvjewsl0130yxlc4z6e",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9oppxdwd20177ipkcnmlg"
+          }
+        ],
+        "mass": 15,
+        "name": "Ratts Tyerell",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3egs0uw01728agm8lk3"
+        },
+        "height": 79,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "BLUE"
+        ],
+        "id": "cj0nv9pw0ewwn0130qm7f70ar",
+        "starships": [],
+        "eyeColor": [
+          "UNKNOWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [],
+        "mass": null,
+        "name": "R4-P17",
+        "hairColor": null,
+        "homeworld": null,
+        "height": 96,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "SILVER",
+          "RED"
+        ],
+        "id": "cj0nv9pwcewwp0130qqjwqm4u",
+        "starships": [],
+        "eyeColor": [
+          "RED",
+          "BLUE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opurdwe001774otr3f7t"
+          }
+        ],
+        "mass": 48,
+        "name": "Wat Tambor",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3l9s1a60172cvpwhku3"
+        },
+        "height": 193,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "GREY"
+        ],
+        "id": "cj0nv9pwnewwr0130laqwk4vm",
+        "starships": [],
+        "eyeColor": [
+          "UNKNOWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opv2dwe20177ovkf8k1p"
+          }
+        ],
+        "mass": null,
+        "name": "San Hill",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3lms1aa0172h4fvs14o"
+        },
+        "height": 191,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9pwxewwt01301nc2uohd",
+        "starships": [],
+        "eyeColor": [
+          "GOLD"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opvbdwe40177n431njzj"
+          }
+        ],
+        "mass": 57,
+        "name": "Shaak Ti",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3lzs1ae0172jm02s6e8"
+        },
+        "height": 178,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "RED",
+          "BLUE",
+          "WHITE"
+        ],
+        "id": "cj0nv9px7ewwv01307vk6kx07",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opvkdwe60177t83cjkfz"
+          }
+        ],
+        "mass": 159,
+        "name": "Grievous",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3mbs1ah0172omfwoqg4"
+        },
+        "height": 216,
+        "vehicles": [
+          {
+            "id": "cj0o79rtgibzf01723zd0xh50"
+          }
+        ],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BROWN",
+          "WHITE"
+        ],
+        "id": "cj0nv9pxjewwx0130vppfyd85",
+        "starships": [
+          {
+            "id": "cj0nwtr3zq5cs0114189m08ze"
+          }
+        ],
+        "eyeColor": [
+          "GREEN",
+          "YELLOW"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opw3dwea0177u3d86jvi"
+          }
+        ],
+        "mass": 136,
+        "name": "Tarfful",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m35ss0lg0172sxjc6agc"
+        },
+        "height": 234,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0nv9pxtewwz0130ta7l70ip",
+        "starships": [],
+        "eyeColor": [
+          "BLUE"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 79,
+        "name": "Raymus Antilles",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m30ms0gk01726hgbrd0s"
+        },
+        "height": 188,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9py3ewx101300y99bz75",
+        "starships": [],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [],
+        "mass": 48,
+        "name": "Sly Moore",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m3mns1al0172njwpyaw0"
+        },
+        "height": 178,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0nv9pyeewx30130y8lhjw4e",
+        "starships": [],
+        "eyeColor": [
+          "WHITE"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opvudwe80177ul78b3pf"
+          }
+        ],
+        "mass": 80,
+        "name": "Tion Medon",
+        "hairColor": null,
+        "homeworld": {
+          "id": "cj0o7m353s0lc0172q2m7pk6c"
+        },
+        "height": 206,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0nv9pynewx50130alumwmjq",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Finn",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": null,
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0nv9pyyewx701303wjw23te",
+        "starships": [],
+        "eyeColor": [
+          "DARK"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Rey",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m3nbs1as0172k8on2ntg"
+        },
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pz8ewx90130rcqp39ma",
+        "starships": [
+          {
+            "id": "cj0nwtqpzq4tt01142nh7e9i4"
+          }
+        ],
+        "eyeColor": [
+          "HAZEL"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": null,
+        "name": "Poe Dameron",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": null,
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9pziewxb0130x6vhaj8g",
+        "starships": [
+          {
+            "id": "cj0nwtqzsq58401148bc66ui5"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "MALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwddwec0177xpqavlb9"
+          }
+        ],
+        "mass": null,
+        "name": "BB8",
+        "hairColor": null,
+        "homeworld": null,
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": null,
+        "id": "cj0nv9pzsewxd0130eeeiaq92",
+        "starships": [],
+        "eyeColor": [
+          "BLACK"
+        ],
+        "gender": null
+      },
+      {
+        "species": [],
+        "mass": null,
+        "name": "Captain Phasma",
+        "hairColor": [
+          "UNKNOWN"
+        ],
+        "homeworld": null,
+        "height": null,
+        "vehicles": [],
+        "birthYear": null,
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "UNKNOWN"
+        ],
+        "id": "cj0nv9q02ewxf0130lhbyvxxt",
+        "starships": [],
+        "eyeColor": [
+          "UNKNOWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opwndwee0177jxx3ez1q"
+          }
+        ],
+        "mass": 45,
+        "name": "Padmé Amidala",
+        "hairColor": [
+          "BROWN"
+        ],
+        "homeworld": {
+          "id": "cj0o7m33ds0l40172cmnt7lvt"
+        },
+        "height": 165,
+        "vehicles": [],
+        "birthYear": "46BBY",
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "LIGHT"
+        ],
+        "id": "cj0nv9q0eewxh0130orm19nl4",
+        "starships": [
+          {
+            "id": "cj0nwtqvfq53i0114d6kym9f4"
+          },
+          {
+            "id": "cj0nwtqxqq57w0114r7awvbfp"
+          },
+          {
+            "id": "cj0nwtr2lq5ck01145j6ztwzk"
+          }
+        ],
+        "eyeColor": [
+          "BROWN"
+        ],
+        "gender": "FEMALE"
+      },
+      {
+        "species": [
+          {
+            "id": "cj0o9opm5dw8f0177zsuuh261"
+          }
+        ],
+        "mass": 265,
+        "name": "Huhululu",
+        "hairColor": [
+          "BLACK"
+        ],
+        "homeworld": null,
+        "height": 222,
+        "vehicles": [],
+        "birthYear": "62BBY",
+        "films": [],
+        "skinColor": [
+          "GOLD"
+        ],
+        "id": "cj66g5na58jk701345r3tk5go",
+        "starships": [],
+        "eyeColor": [
+          "BLUE",
+          "BLUEGREY"
+        ],
+        "gender": "MALE"
+      }
+    ]

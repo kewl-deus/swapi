@@ -20,7 +20,7 @@ data:
             - /var/log/*.json
 
     fields:
-      app.name: swapi-spring-webflux
+      app.name: swapi-spring-web
       app.version: 0.0.4-SNAPSHOT
       logsource.stage: dev
 

@@ -23,7 +23,7 @@ import java.net.InetAddress
 import kotlin.reflect.full.findAnnotation
 
 @RestController
-@RequestMapping("/swapi/flux")
+@RequestMapping("/swapi")
 class SwapiFluxRestController(val environment: Environment) {
 
     private val logger = LoggerFactory.getLogger(SwapiFluxRestController::class.qualifiedName)
@@ -57,7 +57,6 @@ class SwapiFluxRestController(val environment: Environment) {
         try {
             var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
 
-            //return Flux.fromIterable(jsonArray)
             return Flux.create<JsonObject> { emitter ->
                 jsonArray.forEach { json ->
                     logger.trace("Emitting: {} {}", resourceName, json["id"])
@@ -66,7 +65,7 @@ class SwapiFluxRestController(val environment: Environment) {
                 }
                 emitter.complete()
             }
-        } catch (fnf: FileNotFoundException){
+        } catch (fnf: FileNotFoundException) {
             throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
         } finally {
             logger.debug("Leave: GET /{}", resourceName)
@@ -77,26 +76,29 @@ class SwapiFluxRestController(val environment: Environment) {
     @GetMapping("/{resourceName}/{id}", produces = [MediaType.APPLICATION_STREAM_JSON_VALUE])
     @ResponseBody
     fun getSingle(@PathVariable resourceName: String, @PathVariable id: String): Mono<JsonObject> {
-        MDC.put("resource.name", resourceName)
-        MDC.put("resource.id", id)
-        logger.debug("Enter: GET /{}/{}", resourceName, id)
+        return Mono.create<JsonObject> { emitter ->
+            MDC.put("resource.name", resourceName)
+            MDC.put("resource.id", id)
+            logger.debug("Enter: GET /{}/{}", resourceName, id)
 
-        var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
-        try {
-            val result = jsonArray.single { json ->
-                json["id"].toString() == id
+            var jsonArray = parser.parse<JsonArray<JsonObject>>("/swapi/data/$resourceName.json")
+            try {
+                val result = jsonArray.single { json ->
+                    json["id"].toString() == id
+                }
+                linkify(resourceName, result)
+
+                emitter.success(result)
+
+            } catch (nse: NoSuchElementException) {
+                emitter.error(ResponseStatusException(HttpStatus.NOT_FOUND, "No resource with id=$id found in $resourceName"))
+            } catch (fnf: FileNotFoundException) {
+                emitter.error(ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'"))
+            } finally {
+                logger.debug("Leave: GET /{}/{}", resourceName, id)
+                MDC.remove("resource.name")
+                MDC.remove("resource.id")
             }
-            linkify(resourceName, result)
-
-            return Mono.just(result)
-        } catch (nse: NoSuchElementException) {
-            throw ResponseStatusException(HttpStatus.NOT_FOUND, "No resource with id=$id found in $resourceName")
-        } catch (fnf: FileNotFoundException) {
-            throw ResponseStatusException(HttpStatus.NOT_FOUND, "Unknown resource '$resourceName'")
-        } finally {
-            logger.debug("Leave: GET /{}/{}", resourceName, id)
-            MDC.remove("resource.name")
-            MDC.remove("resource.id")
         }
     }
 

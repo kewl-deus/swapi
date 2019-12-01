@@ -1,6 +1,6 @@
 info:
   app:
-    name: swapi-spring-webflux
+    name: swapi-spring-web
     version: 0.0.4-SNAPSHOT
 
 server:

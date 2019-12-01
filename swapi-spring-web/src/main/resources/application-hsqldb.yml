@@ -1,0 +1,13 @@
+spring:
+
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    #http://hsqldb.org/doc/2.0/guide/dbproperties-chapt.html
+    url: "jdbc:hsqldb:mem:swapi"
+    username: sa
+    password:
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+
