@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.bind.annotation.RestController
 import reactor.core.publisher.Flux
-import java.nio.ByteBuffer
-import java.nio.channels.ReadableByteChannel
 import java.nio.charset.Charset
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -51,33 +49,4 @@ class SwapiRawRestController(val dataBufferFactory: DataBufferFactory) {
         }
 
     }
-
-    //FIXME not working yet
-    private fun fluxify(channel: ReadableByteChannel): Flux<String> {
-        return Flux.create<String> { emitter ->
-            val byteBuffer = ByteBuffer.allocate(512)
-            var readCount: Int
-            do {
-                readCount = channel.read(byteBuffer)
-                if (readCount > 0) {
-                    val str = byteBuffer.asCharBuffer().toString()
-                    logger.trace("Emitting {} bytes: {}", readCount, str)
-                    emitter.next(str)
-                }
-            } while (readCount != -1)
-            emitter.complete()
-        }
-    }
-
-    /*
-    fun read(cbuf: CharArray, off: Int, len: Int): Int {
-        val byteBuffer = ByteBuffer.allocate(len)
-        var readCount = 0
-        do {
-            readCount = channel.read(byteBuffer)
-        } while (readCount != -1 && readCount < len)
-        byteBuffer.asCharBuffer().get(cbuf, off, len)
-        return readCount
-    }
-     */
 }
