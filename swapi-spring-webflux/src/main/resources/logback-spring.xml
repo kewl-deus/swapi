@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="LOGS" value="./logs"/>
+    <property name="LOGS" value="/var/log"/>
 
     <appender name="Console"
               class="ch.qos.logback.core.ConsoleAppender">
@@ -40,14 +40,15 @@
     </appender>
     -->
 
-    <!--
+
     <appender name="AsyncJsonFile" class="net.logstash.logback.appender.LoggingEventAsyncDisruptorAppender">
         <waitStrategyType>sleeping</waitStrategyType>
 
         <appender name="JsonFile"
                   class="ch.qos.logback.core.rolling.RollingFileAppender">
             <file>${LOGS}/swapi-spring-webflux.json</file>
-
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+            <!--
             <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
                 <providers>
                     <mdc/>
@@ -62,6 +63,7 @@
                     <stackTrace/>
                 </providers>
             </encoder>
+            -->
 
             <rollingPolicy
                     class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -74,7 +76,7 @@
             </rollingPolicy>
         </appender>
     </appender>
-    -->
+
 
     <!--
     <appender name="Logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
@@ -99,20 +101,20 @@
 
     <!-- LOG everything at INFO level -->
     <root level="info">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="AsyncJsonFile"/>
     </root>
 
     <logger name="swapi" level="debug" additivity="false">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="AsyncJsonFile"/>
     </logger>
 
     <logger name="org.springframework.web" level="info" additivity="false">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="AsyncJsonFile"/>
     </logger>
 
 
     <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="info">
-        <appender-ref ref="ConsoleJson"/>
+        <appender-ref ref="AsyncJsonFile"/>
     </logger>
 
 

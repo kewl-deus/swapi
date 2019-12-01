@@ -1,1 +1,1 @@
-docker run --rm -p 5000:5000 -p 5044:5044 -p 9600:9600 -it custom/logstash:7.4.1
+docker run --rm -p 5000:5000 -p 5044:5044 -p 9600:9600 -it docker.local/logstash:7.4.1

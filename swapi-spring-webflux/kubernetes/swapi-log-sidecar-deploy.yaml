@@ -24,12 +24,22 @@ spec:
         - name: "swapi-spring-webflux"
           image: "docker.local/swapi/swapi-spring-webflux:0.0.3-SNAPSHOT"
           imagePullPolicy: "IfNotPresent"
+          volumeMounts:
+            - mountPath: /var/log
+              name: varlog
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "200m"
+            limits:
+              memory: "512Mi"
+              cpu: "1000m"
           livenessProbe:
             httpGet:
               path: "/actuator/info"
               port: 8080
               scheme: "HTTP"
-            initialDelaySeconds: 0
+            initialDelaySeconds: 10
             periodSeconds: 30
             timeoutSeconds: 10
           ports:
@@ -41,8 +51,25 @@ spec:
               path: "/actuator/health"
               port: 8080
               scheme: "HTTP"
-            initialDelaySeconds: 0
+            initialDelaySeconds: 10
             periodSeconds: 30
             timeoutSeconds: 10
+        - name: filebeat-sidecar
+          image: "docker.elastic.co/beats/filebeat:7.4.1"
+          imagePullPolicy: "IfNotPresent"
+          volumeMounts:
+            - name: varlog
+              mountPath: /var/log
+            - name: config
+              mountPath: /usr/share/filebeat/filebeat.yml
+              readOnly: true
+              subPath: filebeat.yml
       imagePullSecrets:
         - name: docker-local-registry-creds
+      volumes:
+        - name: varlog
+          emptyDir: {}
+        - name: config
+          configMap:
+            #defaultMode: 0600
+            name: swapi-filebeat-config

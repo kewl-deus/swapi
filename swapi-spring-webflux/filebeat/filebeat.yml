@@ -8,12 +8,11 @@ filebeat:
         add_error_key: true
         message_key: message
       paths:
-        #- /var/log/*.log
-        - C:\Development\github\swapi\swapi-spring-webflux\logs\swapi-spring-webflux*.json
+        - /var/log/*.json
 
 fields:
   app.name: swapi-spring-webflux
-  app.version: 0.0.1-SNAPSHOT
+  app.version: 0.0.3-SNAPSHOT
   logsource.stage: dev
 
 output:
@@ -22,7 +21,7 @@ output:
     hosts: ["localhost:5044"]
   elasticsearch:
     enabled: true
-    hosts: ["localhost:30920"]
+    hosts: ["elasticsearch-master.elk:9200"]
     index: "springapp-%{+yyyy.MM.dd}"
 
 #necessary if index-name in output is defined

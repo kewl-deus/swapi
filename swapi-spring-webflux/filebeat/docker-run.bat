@@ -1,0 +1,1 @@
+docker run --rm -it docker.local/filebeat:7.4.1

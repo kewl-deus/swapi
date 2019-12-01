@@ -1,1 +1,1 @@
-docker build . -t custom/logstash:7.4.1
+docker build . -t docker.local/logstash:7.4.1

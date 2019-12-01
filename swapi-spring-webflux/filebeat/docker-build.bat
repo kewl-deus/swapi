@@ -1,0 +1,1 @@
+docker build . -t docker.local/filebeat:7.4.1
