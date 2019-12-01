@@ -21,7 +21,7 @@ import swapi.persistence.FilmRepository
 @SpringBootApplication
 @EnableWebFlux
 @KubernetesApplication(
-        livenessProbe = Probe(httpActionPath = "/health/alive"),
+        livenessProbe = Probe(httpActionPath = "/actuator/info"),
         readinessProbe = Probe(httpActionPath = "/actuator/health"),
         serviceType = ServiceType.LoadBalancer,
         imagePullPolicy = ImagePullPolicy.Always)

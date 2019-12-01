@@ -1,3 +1,8 @@
+info:
+  app:
+    name: swapi-spring-webflux
+    version: 0.0.3-SNAPSHOT
+
 server:
   port: 8080
   error:
