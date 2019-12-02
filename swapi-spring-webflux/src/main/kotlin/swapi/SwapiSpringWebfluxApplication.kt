@@ -33,12 +33,7 @@ class SwapiSpringWebfluxApplication {
     @Bean
     fun filmInsert(filmRepository: FilmRepository) = CommandLineRunner {
 
-        val ignoreCharacters = object: PropertyStrategy {
-            override fun accept(property: KProperty<*>) = property.name != "characters"
-        }
-
         val films = Klaxon()
-                //.propertyStrategy(ignoreCharacters)
                 .propertyStrategy { p: KProperty<*> -> p.name != "characters"}
                 .parseArray<Film>(SwapiResources.getResourceAsStream("films"))!!
 
