@@ -2,6 +2,7 @@ package swapi
 
 import ch.sbb.esta.openshift.gracefullshutdown.GracefulshutdownSpringApplication
 import com.beust.klaxon.Klaxon
+import com.beust.klaxon.PropertyStrategy
 import io.dekorate.kubernetes.annotation.ImagePullPolicy
 import io.dekorate.kubernetes.annotation.KubernetesApplication
 import io.dekorate.kubernetes.annotation.Probe
@@ -16,7 +17,7 @@ import org.springframework.web.reactive.config.EnableWebFlux
 import swapi.logic.SwapiResources
 import swapi.model.Film
 import swapi.persistence.FilmRepository
-
+import kotlin.reflect.KProperty
 
 @SpringBootApplication
 @EnableWebFlux
@@ -31,7 +32,17 @@ class SwapiSpringWebfluxApplication {
 
     @Bean
     fun filmInsert(filmRepository: FilmRepository) = CommandLineRunner {
-        val films = Klaxon().parseArray<Film>(SwapiResources.getResourceAsStream("films"))!!
+
+        val ignoreCharacters = object: PropertyStrategy {
+            override fun accept(property: KProperty<*>) = property.name != "characters"
+        }
+
+        val films = Klaxon()
+                //.propertyStrategy(ignoreCharacters)
+                .propertyStrategy { p: KProperty<*> -> p.name != "characters"}
+                .parseArray<Film>(SwapiResources.getResourceAsStream("films"))!!
+
+
         filmRepository.saveAll(films)
         //films?.map { it.title }.forEach(System.out::println)
     }
@@ -40,6 +51,10 @@ class SwapiSpringWebfluxApplication {
     fun dataBufferFactory(): DataBufferFactory = DefaultDataBufferFactory()
 
 }
+
+fun Klaxon.propertyStrategy(ps: (KProperty<*>) -> Boolean): Klaxon = this.propertyStrategy(object: PropertyStrategy {
+    override fun accept(property: KProperty<*>) = ps(property)
+})
 
 fun main(args: Array<String>) {
     //runApplication<SwapiSpringWebfluxApplication>(*args)
