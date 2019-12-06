@@ -8,6 +8,14 @@ spring:
     password:
 
   jpa:
+    properties:
+      javax:
+        persistence:
+          schema-generation:
+            create-source: metadata
+            scripts:
+              action: create
+              create-target: build/generated-sources/sql/hsqldb/schema.sql
     show-sql: true
     generate-ddl: true
 

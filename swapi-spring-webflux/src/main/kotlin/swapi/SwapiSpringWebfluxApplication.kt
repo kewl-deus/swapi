@@ -14,9 +14,12 @@ import org.springframework.context.annotation.Bean
 import org.springframework.core.io.buffer.DataBufferFactory
 import org.springframework.core.io.buffer.DefaultDataBufferFactory
 import org.springframework.web.reactive.config.EnableWebFlux
+import swapi.logic.SwapiResourceRelations
 import swapi.logic.SwapiResources
 import swapi.model.Film
+import swapi.model.Person
 import swapi.persistence.FilmRepository
+import swapi.persistence.PersonRepository
 import kotlin.reflect.KProperty
 
 @SpringBootApplication
@@ -39,7 +42,19 @@ class SwapiSpringWebfluxApplication {
 
 
         filmRepository.saveAll(films)
-        //films?.map { it.title }.forEach(System.out::println)
+        filmRepository.findAll().forEach(System.out::println)
+    }
+
+    @Bean
+    fun personInsert(personRepository: PersonRepository) = CommandLineRunner {
+
+        val persons = Klaxon()
+                .propertyStrategy { p: KProperty<*> -> ! SwapiResourceRelations.getRelations("persons").any { r -> r.source == p.name }}
+                .parseArray<Person>(SwapiResources.getResourceAsStream("persons"))!!
+
+
+        personRepository.saveAll(persons)
+        personRepository.findAll().forEach(System.out::println)
     }
 
     @Bean

@@ -14,7 +14,7 @@ spring:
             create-source: metadata
             scripts:
               action: create
-              create-target: build/generated-sources/sql/mysql/create-model.sql
+              create-target: build/generated-sources/sql/mysql/schema.sql
     show-sql: true
     #generate-ddl: true
     #database-platform:

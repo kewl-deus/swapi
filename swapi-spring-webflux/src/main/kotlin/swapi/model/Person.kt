@@ -1,11 +1,18 @@
 package swapi.model
 
 import javax.persistence.Column
+import javax.persistence.ElementCollection
+import javax.persistence.Embeddable
+import javax.persistence.Embedded
+import javax.persistence.EmbeddedId
 import javax.persistence.Entity
 import javax.persistence.EnumType
 import javax.persistence.Enumerated
 import javax.persistence.Id
 import javax.persistence.ManyToMany
+import javax.persistence.ManyToOne
+import javax.persistence.OneToMany
+import javax.persistence.Table
 
 @Entity
 data class Person(
@@ -17,62 +24,43 @@ data class Person(
 
         val mass: Int,
 
-        val brithYear: String,
+        val birthYear: String,
 
         @Enumerated(EnumType.STRING)
         val gender: Gender,
 
-        val hairColor: String,
+        @ElementCollection
+        val hairColor: Set<HairColor>? = null,
 
-        //val skinColor: Set<String>
+        @ElementCollection
+        val skinColor: Set<SkinColor>? = null,
 
-        //val eyeColor: Set<String>
+        @ElementCollection
+        val eyeColor: Set<EyeColor>? = null,
 
         //val homeworld: Planet
 
-        //val species: List<Species>
+        //val species: Set<Species>
 
-        //val starships: List<Starship>
+        //val starships: Set<Starship>
 
-        //val vehicles: List<Vehicle>
+        //val vehicles: Set<Vehicle>
 
         @ManyToMany(mappedBy = "characters")
-        val films: List<Film>
+        val films: Set<Film>? = null
 )
 
-/*
+enum class Gender {
+    MALE,
+    FEMALE,
+    UNKNOWN
+}
 
-    private val personRelations = listOf(
-            Multiple("films"), Single("homeworld", "planets"), Multiple("species"),
-            Multiple("starships"), Multiple("vehicles")
+@Embeddable
+data class HairColor(val value: String)
 
-{
-        "species": [
-        ],
-        "mass": 77,
-        "name": "Luke Skywalker",
-        "hairColor": [
-          "BLONDE"
-        ],
-        "homeworld": {
-        },
-        "height": 172,
-        "vehicles": [
-          {
-        ],
-        "birthYear": "19BBY",
-        "films": [
-        ],
-        "skinColor": [
-          "FAIR"
-        ],
-        "id": "cj0nv9p8yewci0130wjy4o5fa",
-        "starships": [
-        ],
-        "eyeColor": [
-          "BLUE"
-        ],
-        "gender": "MALE"
-      }
+@Embeddable
+data class SkinColor(val value: String)
 
- */
+@Embeddable
+data class EyeColor(val value: String)
