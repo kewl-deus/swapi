@@ -1,0 +1,1327 @@
+[
+      {
+        "people": [
+          {
+            "id": "cj0nv9pe7ewdd0130ldes5pcj"
+          },
+          {
+            "id": "cj66g5na58jk701345r3tk5go"
+          }
+        ],
+        "name": "Hutt",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 300,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "BROWN",
+          "TAN"
+        ],
+        "id": "cj0o9opm5dw8f0177zsuuh261",
+        "averageLifespan": 1000,
+        "language": "Huttese",
+        "classification": "gastropod",
+        "eyeColor": [
+          "YELLOW",
+          "RED"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pfeewhj0130sw8tduhq"
+          }
+        ],
+        "name": "Yoda's species",
+        "hairColor": [
+          "BROWN",
+          "WHITE"
+        ],
+        "designation": "sentient",
+        "averageHeight": 66,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "YELLOW"
+        ],
+        "id": "cj0o9opmmdw8h0177mapdmzo9",
+        "averageLifespan": 900,
+        "language": "Galactic basic",
+        "classification": "mammal",
+        "eyeColor": [
+          "BROWN",
+          "GREEN",
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pgpewhs01308btlvm1c"
+          }
+        ],
+        "name": "Trandoshan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 200,
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "skinColor": [
+          "BROWN",
+          "GREEN"
+        ],
+        "id": "cj0o9opn3dw8j0177h9f59me8",
+        "averageLifespan": null,
+        "language": "Dosh",
+        "classification": "reptile",
+        "eyeColor": [
+          "YELLOW",
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9phmewhy0130he5s0k5r"
+          }
+        ],
+        "name": "Mon Calamari",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 160,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "RED",
+          "BLUE",
+          "BROWN",
+          "MAGENTA"
+        ],
+        "id": "cj0o9opngdw8l01774xxgzh4j",
+        "averageLifespan": null,
+        "language": "Mon Calamarian",
+        "classification": "amphibian",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pigewi40130cp7jlnao"
+          }
+        ],
+        "name": "Ewok",
+        "hairColor": [
+          "WHITE",
+          "BROWN",
+          "BLACK"
+        ],
+        "designation": "sentient",
+        "averageHeight": 100,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0o9opnrdw8n0177jatafsjk",
+        "averageLifespan": null,
+        "language": "Ewokese",
+        "classification": "mammal",
+        "eyeColor": [
+          "ORANGE",
+          "BROWN"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9piqewi601303n0rve5n"
+          }
+        ],
+        "name": "Sullustan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "PALE"
+        ],
+        "id": "cj0o9opo3dwaq0177x2y9eehp",
+        "averageLifespan": null,
+        "language": "Sullutese",
+        "classification": "mammal",
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pjaewia01305czgoebo"
+          }
+        ],
+        "name": "Neimodian",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "GREEN"
+        ],
+        "id": "cj0o9opoedwcs0177sacgz8jb",
+        "averageLifespan": null,
+        "language": "Neimoidia",
+        "classification": null,
+        "eyeColor": [
+          "RED",
+          "PINK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pjuewie01304ocsb7i6"
+          },
+          {
+            "id": "cj0nv9pk5ewig0130svvx2s2h"
+          },
+          {
+            "id": "cj0nv9pkgewii0130sbh60q4w"
+          }
+        ],
+        "name": "Gungan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 190,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BROWN",
+          "GREEN"
+        ],
+        "id": "cj0o9opoqdwcu0177cz9ggnap",
+        "averageLifespan": null,
+        "language": "Gungan basic",
+        "classification": "amphibian",
+        "eyeColor": [
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pl4ewim0130iuckr8ut"
+          }
+        ],
+        "name": "Toydarian",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 120,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BLUE",
+          "GREEN",
+          "GREY"
+        ],
+        "id": "cj0o9opp1dwcw01779oqfsoxk",
+        "averageLifespan": 91,
+        "language": "Toydarian",
+        "classification": "mammal",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9plfewip0130c5k4auth"
+          }
+        ],
+        "name": "Dug",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 100,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BROWN",
+          "PURPLE",
+          "GREY",
+          "RED"
+        ],
+        "id": "cj0o9oppcdwcy0177ie3pkkve",
+        "averageLifespan": null,
+        "language": "Dugese",
+        "classification": "mammal",
+        "eyeColor": [
+          "YELLOW",
+          "BLUE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pmwewmz0130veuttq0v"
+          },
+          {
+            "id": "cj0nv9pn7ewn10130pjfdjhzs"
+          }
+        ],
+        "name": "Twi'lek",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 200,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "skinColor": [
+          "ORANGE",
+          "YELLOW",
+          "BLUE",
+          "GREEN",
+          "PINK",
+          "PURPLE",
+          "TAN"
+        ],
+        "id": "cj0o9oppmdwd00177085bu89e",
+        "averageLifespan": null,
+        "language": "Twi'leki",
+        "classification": "mammals",
+        "eyeColor": [
+          "BLUE",
+          "BROWN",
+          "ORANGE",
+          "PINK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pw0ewwn0130qm7f70ar"
+          }
+        ],
+        "name": "Aleena",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 80,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "BLUE",
+          "GREY"
+        ],
+        "id": "cj0o9oppxdwd20177ipkcnmlg",
+        "averageLifespan": 79,
+        "language": "Aleena",
+        "classification": "reptile",
+        "eyeColor": [
+          "UNKNOWN"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pnhewn30130ite82hqe"
+          }
+        ],
+        "name": "Vulptereen",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 100,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0o9opq7dwd40177ubdpeqyn",
+        "averageLifespan": null,
+        "language": "vulpterish",
+        "classification": null,
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pnrewn50130hnrutky4"
+          }
+        ],
+        "name": "Xexto",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 125,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "YELLOW",
+          "PURPLE"
+        ],
+        "id": "cj0o9opqhdwd601777ibv9jgd",
+        "averageLifespan": null,
+        "language": "Xextese",
+        "classification": null,
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9po1ewn70130a1bf76ks"
+          }
+        ],
+        "name": "Toong",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 200,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "GREEN",
+          "YELLOW"
+        ],
+        "id": "cj0o9opqqdwd80177j34nt1vg",
+        "averageLifespan": null,
+        "language": "Tundan",
+        "classification": null,
+        "eyeColor": [
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9polewnb0130gzslto9k"
+          }
+        ],
+        "name": "Cerean",
+        "hairColor": [
+          "RED",
+          "BLONDE",
+          "BLACK",
+          "WHITE"
+        ],
+        "designation": "sentient",
+        "averageHeight": 200,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PALEPINK"
+        ],
+        "id": "cj0o9opr0dwda0177ngya0itd",
+        "averageLifespan": null,
+        "language": "Cerean",
+        "classification": "mammal",
+        "eyeColor": [
+          "HAZEL"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9povewqh0130rmmoxrdn"
+          }
+        ],
+        "name": "Nautolan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "BLUE",
+          "BROWN",
+          "RED"
+        ],
+        "id": "cj0o9opradwdc0177ijaz12sa",
+        "averageLifespan": 70,
+        "language": "Nautila",
+        "classification": "amphibian",
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pmjewmw0130smxc3xtg"
+          },
+          {
+            "id": "cj0nv9pp6ewrf0130jmvs9sif"
+          }
+        ],
+        "name": "Zabrak",
+        "hairColor": [
+          "BLACK"
+        ],
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          }
+        ],
+        "skinColor": [
+          "PALE",
+          "BROWN",
+          "RED",
+          "ORANGE",
+          "YELLOW"
+        ],
+        "id": "cj0o9oprkdwde0177smwtsnz9",
+        "averageLifespan": null,
+        "language": "Zabraki",
+        "classification": "mammal",
+        "eyeColor": [
+          "BROWN",
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pq1ewrh0130n96scghp"
+          }
+        ],
+        "name": "Tholothian",
+        "hairColor": [
+          "UNKNOWN"
+        ],
+        "designation": "sentient",
+        "averageHeight": null,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "DARK"
+        ],
+        "id": "cj0o9oprudwdg0177bo2piyvx",
+        "averageLifespan": null,
+        "language": null,
+        "classification": "mammal",
+        "eyeColor": [
+          "BLUE",
+          "INDIGO"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pqeewrk0130hytbto03"
+          }
+        ],
+        "name": "Iktotchi",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PINK"
+        ],
+        "id": "cj0o9ops4dwdi0177ccep57wn",
+        "averageLifespan": null,
+        "language": "Iktotchese",
+        "classification": null,
+        "eyeColor": [
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pqqewrm0130dcgnl1yq"
+          }
+        ],
+        "name": "Quermian",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 240,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "WHITE"
+        ],
+        "id": "cj0o9opsedwdk0177g9ora8nm",
+        "averageLifespan": 86,
+        "language": "Quermian",
+        "classification": "mammal",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pqzewro0130goxvqygc"
+          }
+        ],
+        "name": "Kel Dor",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "PEACH",
+          "ORANGE",
+          "RED"
+        ],
+        "id": "cj0o9opsodwdm0177wzzl6gof",
+        "averageLifespan": 70,
+        "language": "Kel Dor",
+        "classification": null,
+        "eyeColor": [
+          "BLACK",
+          "SILVER"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9praewrq01308qb59djk"
+          }
+        ],
+        "name": "Chagrian",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 190,
+        "films": [
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BLUE"
+        ],
+        "id": "cj0o9opszdwdo0177uy5qsas6",
+        "averageLifespan": null,
+        "language": "Chagria",
+        "classification": "amphibian",
+        "eyeColor": [
+          "BLUE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pseewry013092e6vgwv"
+          }
+        ],
+        "name": "Geonosian",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 178,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "BROWN"
+        ],
+        "id": "cj0o9opt8dwdq0177qt1wry91",
+        "averageLifespan": null,
+        "language": "Geonosian",
+        "classification": "insectoid",
+        "eyeColor": [
+          "GREEN",
+          "HAZEL"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9psoews001308t8jlfpl"
+          },
+          {
+            "id": "cj0nv9psyews20130wze1ip97"
+          }
+        ],
+        "name": "Mirialan",
+        "hairColor": [
+          "BLACK",
+          "BROWN"
+        ],
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "YELLOW",
+          "GREEN"
+        ],
+        "id": "cj0o9optjdwds0177h3vamlnm",
+        "averageLifespan": null,
+        "language": "Mirialan",
+        "classification": "mammal",
+        "eyeColor": [
+          "BLUE",
+          "GREEN",
+          "RED",
+          "YELLOW",
+          "BROWN",
+          "ORANGE"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pudewsc0130bjbqmp9x"
+          }
+        ],
+        "name": "Clawdite",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "YELLOW"
+        ],
+        "id": "cj0o9opttdwdu0177dmazvw2v",
+        "averageLifespan": 70,
+        "language": "Clawdite",
+        "classification": "reptilian",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9punewse0130uek8j4ee"
+          }
+        ],
+        "name": "Besalisk",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 178,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "BROWN"
+        ],
+        "id": "cj0o9opu3dwdw0177bg4vtp00",
+        "averageLifespan": 75,
+        "language": "besalisk",
+        "classification": "amphibian",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9puxewsg0130dvk9i1qx"
+          },
+          {
+            "id": "cj0nv9pv8ewsi0130haxytem4"
+          }
+        ],
+        "name": "Kaminoan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 220,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "BLUE"
+        ],
+        "id": "cj0o9opucdwdy0177717v5f5p",
+        "averageLifespan": 80,
+        "language": "Kaminoan",
+        "classification": "amphibian",
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pwnewwr0130laqwk4vm"
+          }
+        ],
+        "name": "Skakoan",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": null,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "GREEN"
+        ],
+        "id": "cj0o9opurdwe001774otr3f7t",
+        "averageLifespan": null,
+        "language": "Skakoan",
+        "classification": "mammal",
+        "eyeColor": [
+          "UNKNOWN"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pwxewwt01301nc2uohd"
+          }
+        ],
+        "name": "Muun",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 190,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREY",
+          "WHITE"
+        ],
+        "id": "cj0o9opv2dwe20177ovkf8k1p",
+        "averageLifespan": 100,
+        "language": "Muun",
+        "classification": "mammal",
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9px7ewwv01307vk6kx07"
+          }
+        ],
+        "name": "Togruta",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "RED",
+          "WHITE",
+          "ORANGE",
+          "YELLOW",
+          "GREEN",
+          "BLUE"
+        ],
+        "id": "cj0o9opvbdwe40177n431njzj",
+        "averageLifespan": 94,
+        "language": "Togruti",
+        "classification": "mammal",
+        "eyeColor": [
+          "RED",
+          "ORANGE",
+          "YELLOW",
+          "GREEN",
+          "BLUE",
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pxjewwx0130vppfyd85"
+          }
+        ],
+        "name": "Kaleesh",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 170,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "BROWN",
+          "ORANGE",
+          "TAN"
+        ],
+        "id": "cj0o9opvkdwe60177t83cjkfz",
+        "averageLifespan": 80,
+        "language": "Kaleesh",
+        "classification": "reptile",
+        "eyeColor": [
+          "YELLOW"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pynewx50130alumwmjq"
+          }
+        ],
+        "name": "Pau'an",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": 190,
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0o9opvudwe80177ul78b3pf",
+        "averageLifespan": 700,
+        "language": "Utapese",
+        "classification": "mammal",
+        "eyeColor": [
+          "BLACK"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pd9ewd601306f4ackea"
+          },
+          {
+            "id": "cj0nv9pxtewwz0130ta7l70ip"
+          }
+        ],
+        "name": "Wookiee",
+        "hairColor": [
+          "BLACK",
+          "BROWN"
+        ],
+        "designation": "sentient",
+        "averageHeight": 210,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "GREY"
+        ],
+        "id": "cj0o9opw3dwea0177u3d86jvi",
+        "averageLifespan": 400,
+        "language": "Shyriiwook",
+        "classification": "mammal",
+        "eyeColor": [
+          "BLUE",
+          "GREEN",
+          "YELLOW",
+          "BROWN",
+          "GOLDEN",
+          "RED"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9p9gewck0130h8f8esy0"
+          },
+          {
+            "id": "cj0nv9p9wewcm01302r07xzna"
+          },
+          {
+            "id": "cj0nv9pblewcw0130k575f0nj"
+          },
+          {
+            "id": "cj0nv9pgfewhq013075n4x8ms"
+          },
+          {
+            "id": "cj0nv9pzsewxd0130eeeiaq92"
+          }
+        ],
+        "name": "Droid",
+        "hairColor": null,
+        "designation": "sentient",
+        "averageHeight": null,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": null,
+        "id": "cj0o9opwddwec0177xpqavlb9",
+        "averageLifespan": -1,
+        "language": "n/a",
+        "classification": "artificial",
+        "eyeColor": null
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9p8yewci0130wjy4o5fa"
+          },
+          {
+            "id": "cj0nv9pa9ewco0130v4ocnhed"
+          },
+          {
+            "id": "cj0nv9pakewcq01303eu3xuy1"
+          },
+          {
+            "id": "cj0nv9paxewcs01300tqz2uvu"
+          },
+          {
+            "id": "cj0nv9pbaewcu0130s0n2en0f"
+          },
+          {
+            "id": "cj0nv9pbxewcy0130rl03ub1e"
+          },
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          },
+          {
+            "id": "cj0nv9pcjewd20130zu2qp5ml"
+          },
+          {
+            "id": "cj0nv9pcuewd40130f21rvg6z"
+          },
+          {
+            "id": "cj0nv9pdlewd80130bs5vgryn"
+          },
+          {
+            "id": "cj0nv9peiewhf013011i9a4h2"
+          },
+          {
+            "id": "cj0nv9peuewhh0130il9ua6bh"
+          },
+          {
+            "id": "cj0nv9pfsewhm0130365w08pz"
+          },
+          {
+            "id": "cj0nv9pg3ewho0130tijy6bk9"
+          },
+          {
+            "id": "cj0nv9ph2ewhu0130neejtdm7"
+          },
+          {
+            "id": "cj0nv9phcewhw0130dyny3mo2"
+          },
+          {
+            "id": "cj0nv9phwewi00130bpgkvz0r"
+          },
+          {
+            "id": "cj0nv9pi6ewi201308xa3cuha"
+          },
+          {
+            "id": "cj0nv9pj0ewi80130nht96xcw"
+          },
+          {
+            "id": "cj0nv9pjkewic013050cciod5"
+          },
+          {
+            "id": "cj0nv9pm7ewmu0130ajkyh72d"
+          },
+          {
+            "id": "cj0nv9pobewn90130jrqyuflj"
+          },
+          {
+            "id": "cj0nv9prkewrs0130ywj2hmre"
+          },
+          {
+            "id": "cj0nv9pruewru0130e9dh7675"
+          },
+          {
+            "id": "cj0nv9ps4ewrw0130n97oa08q"
+          },
+          {
+            "id": "cj0nv9pt8ews40130dekjuwvk"
+          },
+          {
+            "id": "cj0nv9ptjews60130a8hz99qg"
+          },
+          {
+            "id": "cj0nv9pttews80130as2uv4x0"
+          },
+          {
+            "id": "cj0nv9pu2ewsa0130famuiscl"
+          },
+          {
+            "id": "cj0nv9pvjewsl0130yxlc4z6e"
+          },
+          {
+            "id": "cj0nv9py3ewx101300y99bz75"
+          },
+          {
+            "id": "cj0nv9pyyewx701303wjw23te"
+          },
+          {
+            "id": "cj0nv9pz8ewx90130rcqp39ma"
+          },
+          {
+            "id": "cj0nv9pziewxb0130x6vhaj8g"
+          },
+          {
+            "id": "cj0nv9q0eewxh0130orm19nl4"
+          }
+        ],
+        "name": "Human",
+        "hairColor": [
+          "BLONDE",
+          "BROWN",
+          "BLACK",
+          "RED"
+        ],
+        "designation": "sentient",
+        "averageHeight": 180,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          },
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "skinColor": [
+          "CAUCASIAN",
+          "BLACK",
+          "ASIAN",
+          "HISPANIC"
+        ],
+        "id": "cj0o9opwndwee0177jxx3ez1q",
+        "averageLifespan": 120,
+        "language": "Galactic Basic",
+        "classification": "mammal",
+        "eyeColor": [
+          "BROWN",
+          "BLUE",
+          "GREEN",
+          "HAZEL",
+          "GREY",
+          "AMBER"
+        ]
+      },
+      {
+        "people": [
+          {
+            "id": "cj0nv9pdvewda0130vnxtkgce"
+          }
+        ],
+        "name": "Rodian",
+        "hairColor": null,
+        "designation": "reptilian",
+        "averageHeight": 170,
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "skinColor": [
+          "GREEN",
+          "BLUE"
+        ],
+        "id": "cj0o9opwxdweg0177ppw18k2e",
+        "averageLifespan": null,
+        "language": "Galactic Basic",
+        "classification": "sentient",
+        "eyeColor": [
+          "BLACK"
+        ]
+      }
+    ]
