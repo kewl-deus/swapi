@@ -1,5 +1,5 @@
 import unittest
-from __init__.logic.swapi_relations import swapi_relations, SwapiRelation
+from swapi.logic.swapi_relations import swapi_relations, SwapiRelation
 
 
 class SwapiRelationsTest(unittest.TestCase):

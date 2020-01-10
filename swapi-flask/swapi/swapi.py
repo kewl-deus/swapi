@@ -1,4 +1,4 @@
-from flask import url_for, jsonify, json, abort, Response, Blueprint
+from flask import url_for, jsonify, json, abort, Response, Blueprint, current_app
 from .logic.swapi_relations import swapi_relations
 
 bp = Blueprint('swapi', __name__, url_prefix='/swapi')
@@ -9,7 +9,7 @@ res_names = ['films', 'persons', 'planets', 'species', 'starships', 'vehicles']
 @bp.route('/', methods=['GET'])
 def index():
     """Lists all available SWAPI resource endpoints"""
-    endpoints = dict(map(lambda r: [r, swapi_url_for(get_all, resource_name=r)], res_names))
+    endpoints = dict(map(lambda r: [r, __url_for(get_all, resource_name=r)], res_names))
     return endpoints
 
 
@@ -31,15 +31,9 @@ def get_single(resource_name, resource_id):
 
 def find_resource(resource_name, resource_id):
     res_json = load_resource(resource_name)
-    for res_item in res_json:
-        if res_item['id'] == resource_id:
-            return res_item
-    # res_items = list(filter(lambda r: r['id'] == resource_id, res_json))
-    # if len(res_items) == 1:
-    #    item = res_items.pop()
-    #    return jsonify(item)
-    # else:
-    #    abort(Response(f'No resource found with id={resource_id} in {resource_name}', 404))
+    res_item = next(filter(lambda r: r['id'] == resource_id, res_json))
+    if res_item is not None:
+        return res_item
     abort(Response(f'No resource found with id={resource_id} in {resource_name}', 404))
 
 
@@ -51,7 +45,7 @@ def validate_resource_name(resource_name):
 
 
 def load_resource(resource_name):
-    #app.logger.info(f'Loading resource {resource_name}.json')
+    #current_app.info(f'Loading resource {resource_name}.json')
     with open(f'{bp.root_path}/static/data/{resource_name}.json', 'r') as res_file:
         res_json = json.load(res_file)
         return res_json
@@ -67,7 +61,7 @@ def linkify(res_name, res_entity):
     for rel in relations:
 
         def url_for_single(ref_json, resource_name=rel.target):
-            return swapi_url_for(get_single, resource_name=resource_name, resource_id=ref_json['id'])
+            return __url_for(get_single, resource_name=resource_name, resource_id=ref_json['id'])
 
         if rel.is_multiple:
             ref_list = res_entity[rel.source]  # array of json objects {'id':'abc123'}
@@ -80,5 +74,6 @@ def linkify(res_name, res_entity):
     return res_entity
 
 
-def swapi_url_for(controller_method, **values):
+def __url_for(controller_method, **values):
+    """internal version of url_for"""
     return url_for(f'{bp.name}.{controller_method.__name__}', **values)
