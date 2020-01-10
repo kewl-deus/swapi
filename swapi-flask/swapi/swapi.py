@@ -1,4 +1,4 @@
-from flask import url_for, jsonify, json, abort, Response, Blueprint, current_app
+from flask import url_for, jsonify, json, abort, Response, Blueprint, current_app, request
 from .logic.swapi_relations import swapi_relations
 
 bp = Blueprint('swapi', __name__, url_prefix='/swapi')
@@ -16,6 +16,9 @@ def index():
 @bp.route('/<resource_name>/', methods=['GET'])
 def get_all(resource_name):
     validate_resource_name(resource_name)
+    if len(request.args) > 0:
+        return search_resources(resource_name, request.args)
+
     json_entities = load_resource(resource_name)
     linkified_entities = list(map(lambda e: linkify(resource_name, e), json_entities))
     return jsonify(linkified_entities)
@@ -27,6 +30,30 @@ def get_single(resource_name, resource_id):
     res_entity = find_resource(resource_name, resource_id)
     linkify(resource_name, res_entity)
     return res_entity
+
+
+def search_resources(resource_name: str, searched_props: dict) -> bool:
+    def matches_search_criteria(json_obj: dict):
+        for (prop_name, prop_value) in searched_props.items():
+            if prop_name in json_obj:
+                if str(json_obj[prop_name]) != str(prop_value):
+                    return False
+            else:
+                return False
+        return True
+
+    def to_str(prop):
+        k, v = prop
+        return f'{k}={v}'
+
+    res_json = load_resource(resource_name)
+    matching_objs = list(filter(matches_search_criteria, res_json))
+    if len(matching_objs) == 0:
+        prop_str_list = list(map(to_str, searched_props.items()))
+        search_exp = str.join(",", prop_str_list)
+        abort(Response(f'No resource found with {search_exp} in {resource_name}', 404))
+    #name = request.args.get('name') #if key doesn't exist, returns None
+    return jsonify(matching_objs)
 
 
 def find_resource(resource_name, resource_id):

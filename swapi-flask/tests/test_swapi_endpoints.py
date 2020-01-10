@@ -38,6 +38,26 @@ class SwapiEndpointsTest(unittest.TestCase):
             self.assertRegex(film_uri, '/swapi/films/', 'film link should start with correct path')
         self.assertEqual(person['homeworld'], '/swapi/planets/cj0o7m38ws0py0172st3yhqvj')
 
+    def test_search_multiresult(self):
+        resp: Response = self.client.get('/swapi/films/?director=George%20Lucas')
+        self.assertEqual(resp.status_code, 200)
+        films = json.loads(resp.data)
+        self.assertGreater(len(films), 0)
+        for film in films:
+            self.assertEqual(film['director'], 'George Lucas')
+
+    def test_search_singleresult(self):
+        resp: Response = self.client.get('/swapi/persons/?name=Yoda')
+        self.assertEqual(resp.status_code, 200)
+        persons = json.loads(resp.data)
+        self.assertEqual(len(persons), 1)
+        person = persons.pop()
+        self.assertEqual(person['name'], 'Yoda')
+
+    def test_search_notfound(self):
+        resp: Response = self.client.get('/swapi/films/?nonsense=abc')
+        self.assertEqual(resp.status_code, 404)
+
 
 if __name__ == '__main__':
     unittest.main()
