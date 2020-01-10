@@ -45,7 +45,7 @@ def validate_resource_name(resource_name):
 
 
 def load_resource(resource_name):
-    #current_app.info(f'Loading resource {resource_name}.json')
+    current_app.logger.info(f'Loading resource {resource_name}.json')
     with open(f'{bp.root_path}/static/data/{resource_name}.json', 'r') as res_file:
         res_json = json.load(res_file)
         return res_json
@@ -61,6 +61,8 @@ def linkify(res_name, res_entity):
     for rel in relations:
 
         def url_for_single(ref_json, resource_name=rel.target):
+            if ref_json is None:
+                return None
             return __url_for(get_single, resource_name=resource_name, resource_id=ref_json['id'])
 
         if rel.is_multiple:
