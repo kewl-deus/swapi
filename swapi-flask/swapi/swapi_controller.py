@@ -1,19 +1,19 @@
 from flask import url_for, jsonify, json, abort, Response, Blueprint, current_app, request
 from .logic.swapi_relations import swapi_relations
 
-bp = Blueprint('swapi', __name__, url_prefix='/swapi')
+blueprint = Blueprint('swapi', __name__, url_prefix='/swapi')
 
 res_names = ['films', 'persons', 'planets', 'species', 'starships', 'vehicles']
 
 
-@bp.route('/', methods=['GET'])
+@blueprint.route('/', methods=['GET'])
 def index():
     """Lists all available SWAPI resource endpoints"""
     endpoints = dict(map(lambda r: [r, __url_for(get_all, resource_name=r)], res_names))
     return endpoints
 
 
-@bp.route('/<resource_name>/', methods=['GET'])
+@blueprint.route('/<resource_name>/', methods=['GET'])
 def get_all(resource_name):
     validate_resource_name(resource_name)
     if len(request.args) > 0:
@@ -24,7 +24,7 @@ def get_all(resource_name):
     return jsonify(linkified_entities)
 
 
-@bp.route('/<resource_name>/<resource_id>', methods=['GET'])
+@blueprint.route('/<resource_name>/<resource_id>', methods=['GET'])
 def get_single(resource_name, resource_id):
     validate_resource_name(resource_name)
     res_entity = find_resource(resource_name, resource_id)
@@ -73,7 +73,7 @@ def validate_resource_name(resource_name):
 
 def load_resource(resource_name):
     current_app.logger.info(f'Loading resource {resource_name}.json')
-    with open(f'{bp.root_path}/static/data/{resource_name}.json', 'r') as res_file:
+    with open(f'{blueprint.root_path}/static/data/{resource_name}.json', 'r') as res_file:
         res_json = json.load(res_file)
         return res_json
 
@@ -105,4 +105,4 @@ def linkify(res_name, res_entity):
 
 def __url_for(controller_method, **values):
     """internal version of url_for"""
-    return url_for(f'{bp.name}.{controller_method.__name__}', **values)
+    return url_for(f'{blueprint.name}.{controller_method.__name__}', **values)

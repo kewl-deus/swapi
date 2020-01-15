@@ -1,0 +1,121 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: SWAPI
+servers:
+  - url: 'http://localhost:5000/'
+paths:
+  /swapi:
+    get:
+      summary: List endpoints to all available resource sets
+      operationId: swapi.swapi_controller.index
+      tags:
+        - Index
+      responses:
+        '200':
+          description: List of endpoint URIs
+          content:
+            application/json:
+              schema:
+                #$ref: '#/components/schemas/LinkList'
+                type: object
+                example: '{"films": "/swapi/films"}'
+  '/swapi/{resource_name}':
+    get:
+      summary: Lists all resources of type
+      description: |
+        Optionally properties matching the resource can be passed in as query
+        parameters and will be interpreted as search criteria filtering the result
+      operationId: swapi.swapi_controller.get_all
+      tags:
+        - Resources
+      parameters:
+        - name: resource_name
+          in: path
+          required: true
+          description: name of a resource (plural)
+          schema:
+            type: string
+            enum:
+              - films
+              - persons
+              - planets
+              - species
+              - starships
+              - vehicles
+      responses:
+        '200':
+          description: List of requested resources matching type (and optional search criteria)
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Requested resource type is not supported and therefor cannot be found
+          content:
+            text/plain:
+              schema:
+                type: string
+  '/swapi/{resource_name}/{resource_id}':
+    get:
+      summary: Get resource item by unique identifier
+      operationId: swapi.swapi_controller.get_single
+      tags:
+        - Resources
+      parameters:
+        - name: resource_name
+          in: path
+          required: true
+          description: name of a resource (plural)
+          schema:
+            type: string
+            enum:
+              - films
+              - persons
+              - planets
+              - species
+              - starships
+              - vehicles
+        - name: resource_id
+          in: path
+          required: true
+          description: unique identifier
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of requested resources matching type (and optional search criteria)
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Requested resource could not be found
+          content:
+            text/plain:
+              schema:
+                type: string
+components:
+  schemas:
+    SwapiEntity:
+      type: object
+      required:
+        - id
+      properties:
+        id:
+          type: string
+    LinkList:
+      type: array
+      items:
+        $ref: '#/components/schemas/Link'
+    Link:
+      type: object
+      required:
+        - name
+        - href
+      properties:
+        name:
+          type: string
+        href:
+          type: string
+          format: uri
