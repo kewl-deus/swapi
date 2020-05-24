@@ -1,0 +1,1556 @@
+[
+      {
+        "surfaceWater": 40,
+        "name": "Alderaan",
+        "population": 2000000000,
+        "orbitalPeriod": 364,
+        "rotationPeriod": 24,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pakewcq01303eu3xuy1"
+          },
+          {
+            "id": "cj0nv9pigewi40130cp7jlnao"
+          },
+          {
+            "id": "cj0nv9pttews80130as2uv4x0"
+          },
+          {
+            "id": "cj0nv9py3ewx101300y99bz75"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m30ms0gk01726hgbrd0s",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "grasslands",
+          "mountains"
+        ],
+        "diameter": 12500
+      },
+      {
+        "surfaceWater": 8,
+        "name": "Yavin IV",
+        "population": 1000,
+        "orbitalPeriod": 4818,
+        "rotationPeriod": 24,
+        "gravity": "1 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          }
+        ],
+        "id": "cj0o7m314s0go0172neidhabv",
+        "climate": [
+          "temperate",
+          "tropical"
+        ],
+        "terrain": [
+          "jungle",
+          "rainforests"
+        ],
+        "diameter": 10200
+      },
+      {
+        "surfaceWater": 100,
+        "name": "Hoth",
+        "population": null,
+        "orbitalPeriod": 549,
+        "rotationPeriod": 23,
+        "gravity": "1.1 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0o7m31os0kt0172zh0hc81j",
+        "climate": [
+          "frozen"
+        ],
+        "terrain": [
+          "tundra",
+          "ice caves",
+          "mountain ranges"
+        ],
+        "diameter": 7200
+      },
+      {
+        "surfaceWater": 8,
+        "name": "Dagobah",
+        "population": null,
+        "orbitalPeriod": 341,
+        "rotationPeriod": 23,
+        "gravity": "N/A",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          },
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0o7m325s0kx0172xg8bi5nu",
+        "climate": [
+          "murky"
+        ],
+        "terrain": [
+          "swamp",
+          "jungles"
+        ],
+        "diameter": 8900
+      },
+      {
+        "surfaceWater": 0,
+        "name": "Bespin",
+        "population": 6000000,
+        "orbitalPeriod": 5110,
+        "rotationPeriod": 12,
+        "gravity": "1.5 (surface), 1 standard (Cloud City)",
+        "residents": [
+          {
+            "id": "cj0nv9phcewhw0130dyny3mo2"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0o7m32ns0l00172kmuax1av",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "gas giant"
+        ],
+        "diameter": 118000
+      },
+      {
+        "surfaceWater": 8,
+        "name": "Endor",
+        "population": 30000000,
+        "orbitalPeriod": 402,
+        "rotationPeriod": 18,
+        "gravity": "0.85 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0o7m32ys0l201723g5eip60",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "forests",
+          "mountains",
+          "lakes"
+        ],
+        "diameter": 4900
+      },
+      {
+        "surfaceWater": 12,
+        "name": "Naboo",
+        "population": 4500000000,
+        "orbitalPeriod": 312,
+        "rotationPeriod": 26,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9p9wewcm01302r07xzna"
+          },
+          {
+            "id": "cj0nv9pfsewhm0130365w08pz"
+          },
+          {
+            "id": "cj0nv9pjuewie01304ocsb7i6"
+          },
+          {
+            "id": "cj0nv9pk5ewig0130svvx2s2h"
+          },
+          {
+            "id": "cj0nv9pkgewii0130sbh60q4w"
+          },
+          {
+            "id": "cj0nv9pkqewik013009i8sau1"
+          },
+          {
+            "id": "cj0nv9plqewir0130xsb2qhjw"
+          },
+          {
+            "id": "cj0nv9prkewrs0130ywj2hmre"
+          },
+          {
+            "id": "cj0nv9pruewru0130e9dh7675"
+          },
+          {
+            "id": "cj0nv9pt8ews40130dekjuwvk"
+          },
+          {
+            "id": "cj0nv9q0eewxh0130orm19nl4"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0o7m33ds0l40172cmnt7lvt",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "grassy hills",
+          "swamps",
+          "forests",
+          "mountains"
+        ],
+        "diameter": 12120
+      },
+      {
+        "surfaceWater": null,
+        "name": "Coruscant",
+        "population": 1000000000000,
+        "orbitalPeriod": 368,
+        "rotationPeriod": 24,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pjkewic013050cciod5"
+          },
+          {
+            "id": "cj0nv9pq1ewrh0130n96scghp"
+          },
+          {
+            "id": "cj0nv9pvjewsl0130yxlc4z6e"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0o7m33qs0l60172g6p327fa",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "cityscape",
+          "mountains"
+        ],
+        "diameter": 12240
+      },
+      {
+        "surfaceWater": 100,
+        "name": "Kamino",
+        "population": 1000000000,
+        "orbitalPeriod": 463,
+        "rotationPeriod": 27,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pg3ewho0130tijy6bk9"
+          },
+          {
+            "id": "cj0nv9puxewsg0130dvk9i1qx"
+          },
+          {
+            "id": "cj0nv9pv8ewsi0130haxytem4"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0o7m34cs0l80172xvnmsjq0",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "ocean"
+        ],
+        "diameter": 19720
+      },
+      {
+        "surfaceWater": 5,
+        "name": "Geonosis",
+        "population": 100000000000,
+        "orbitalPeriod": 256,
+        "rotationPeriod": 30,
+        "gravity": "0.9 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pseewry013092e6vgwv"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          }
+        ],
+        "id": "cj0o7m34ps0la0172ynawstyk",
+        "climate": [
+          "temperate",
+          "arid"
+        ],
+        "terrain": [
+          "rock",
+          "desert",
+          "mountain",
+          "barren"
+        ],
+        "diameter": 11370
+      },
+      {
+        "surfaceWater": 0.9,
+        "name": "Utapau",
+        "population": 95000000,
+        "orbitalPeriod": 351,
+        "rotationPeriod": 27,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pynewx50130alumwmjq"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m353s0lc0172q2m7pk6c",
+        "climate": [
+          "temperate",
+          "arid",
+          "windy"
+        ],
+        "terrain": [
+          "scrublands",
+          "savanna",
+          "canyons",
+          "sinkholes"
+        ],
+        "diameter": 12900
+      },
+      {
+        "surfaceWater": 0,
+        "name": "Mustafar",
+        "population": 20000,
+        "orbitalPeriod": 412,
+        "rotationPeriod": 36,
+        "gravity": "1 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m35fs0le0172ngh8gzzl",
+        "climate": [
+          "hot"
+        ],
+        "terrain": [
+          "volcanoes",
+          "lava rivers",
+          "mountains",
+          "caves"
+        ],
+        "diameter": 4200
+      },
+      {
+        "surfaceWater": 60,
+        "name": "Kashyyyk",
+        "population": 45000000,
+        "orbitalPeriod": 381,
+        "rotationPeriod": 26,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pd9ewd601306f4ackea"
+          },
+          {
+            "id": "cj0nv9pxtewwz0130ta7l70ip"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m35ss0lg0172sxjc6agc",
+        "climate": [
+          "tropical"
+        ],
+        "terrain": [
+          "jungle",
+          "forests",
+          "lakes",
+          "rivers"
+        ],
+        "diameter": 12765
+      },
+      {
+        "surfaceWater": 0,
+        "name": "Polis Massa",
+        "population": 1000000,
+        "orbitalPeriod": 590,
+        "rotationPeriod": 24,
+        "gravity": "0.56 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m367s0li0172wi6vksrm",
+        "climate": [
+          "artificial temperate"
+        ],
+        "terrain": [
+          "airless asteroid"
+        ],
+        "diameter": 0
+      },
+      {
+        "surfaceWater": null,
+        "name": "Mygeeto",
+        "population": 19000000,
+        "orbitalPeriod": 167,
+        "rotationPeriod": 12,
+        "gravity": "1 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m36ps0lk0172f3omw7q0",
+        "climate": [
+          "frigid"
+        ],
+        "terrain": [
+          "glaciers",
+          "mountains",
+          "ice canyons"
+        ],
+        "diameter": 10088
+      },
+      {
+        "surfaceWater": null,
+        "name": "Felucia",
+        "population": 8500000,
+        "orbitalPeriod": 231,
+        "rotationPeriod": 34,
+        "gravity": "0.75 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m371s0lm0172obwuhek8",
+        "climate": [
+          "hot",
+          "humid"
+        ],
+        "terrain": [
+          "fungus forests"
+        ],
+        "diameter": 9100
+      },
+      {
+        "surfaceWater": null,
+        "name": "Cato Neimoidia",
+        "population": 10000000,
+        "orbitalPeriod": 278,
+        "rotationPeriod": 25,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pjaewia01305czgoebo"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m37es0lo0172v4l4x70l",
+        "climate": [
+          "temperate",
+          "moist"
+        ],
+        "terrain": [
+          "mountains",
+          "fields",
+          "forests",
+          "rock arches"
+        ],
+        "diameter": 0
+      },
+      {
+        "surfaceWater": null,
+        "name": "Saleucami",
+        "population": 1400000000,
+        "orbitalPeriod": 392,
+        "rotationPeriod": 26,
+        "gravity": null,
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          }
+        ],
+        "id": "cj0o7m37rs0lq01727e0ef033",
+        "climate": [
+          "hot"
+        ],
+        "terrain": [
+          "caves",
+          "desert",
+          "mountains",
+          "volcanoes"
+        ],
+        "diameter": 14920
+      },
+      {
+        "surfaceWater": null,
+        "name": "Stewjon",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pc9ewd00130o0n3f3m1"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m384s0lt01722pqea08p",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "grass"
+        ],
+        "diameter": 0
+      },
+      {
+        "surfaceWater": null,
+        "name": "Eriadu",
+        "population": 22000000000,
+        "orbitalPeriod": 360,
+        "rotationPeriod": 24,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pcuewd40130f21rvg6z"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m38hs0lw0172cf2ag9t1",
+        "climate": [
+          "polluted"
+        ],
+        "terrain": [
+          "cityscape"
+        ],
+        "diameter": 13490
+      },
+      {
+        "surfaceWater": 70,
+        "name": "Corellia",
+        "population": 3000000000,
+        "orbitalPeriod": 329,
+        "rotationPeriod": 25,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pdlewd80130bs5vgryn"
+          },
+          {
+            "id": "cj0nv9peiewhf013011i9a4h2"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m38ws0py0172st3yhqvj",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "plains",
+          "urban",
+          "hills",
+          "forests"
+        ],
+        "diameter": 11000
+      },
+      {
+        "surfaceWater": 60,
+        "name": "Rodia",
+        "population": 1300000000,
+        "orbitalPeriod": 305,
+        "rotationPeriod": 29,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pdvewda0130vnxtkgce"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m39es0q001726ebkygf8",
+        "climate": [
+          "hot"
+        ],
+        "terrain": [
+          "jungles",
+          "oceans",
+          "urban",
+          "swamps"
+        ],
+        "diameter": 7549
+      },
+      {
+        "surfaceWater": null,
+        "name": "Nal Hutta",
+        "population": 7000000000,
+        "orbitalPeriod": 413,
+        "rotationPeriod": 87,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pe7ewdd0130ldes5pcj"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m39rs0q201723nghx0p1",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "urban",
+          "oceans",
+          "swamps",
+          "bogs"
+        ],
+        "diameter": 12150
+      },
+      {
+        "surfaceWater": null,
+        "name": "Dantooine",
+        "population": 1000,
+        "orbitalPeriod": 378,
+        "rotationPeriod": 25,
+        "gravity": "1 standard",
+        "residents": [],
+        "films": [],
+        "id": "cj0o7m3a3s0q50172y4qgfza9",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "oceans",
+          "savannas",
+          "mountains",
+          "grasslands"
+        ],
+        "diameter": 9830
+      },
+      {
+        "surfaceWater": 98,
+        "name": "Bestine IV",
+        "population": 62000000,
+        "orbitalPeriod": 680,
+        "rotationPeriod": 26,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9peuewhh0130il9ua6bh"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3ags0q70172h987hloz",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "rocky islands",
+          "oceans"
+        ],
+        "diameter": 6400
+      },
+      {
+        "surfaceWater": 10,
+        "name": "Ord Mantell",
+        "population": 4000000000,
+        "orbitalPeriod": 334,
+        "rotationPeriod": 26,
+        "gravity": "1 standard",
+        "residents": [],
+        "films": [
+          {
+            "id": "cj0nxmy5tga620114ew9275qj"
+          }
+        ],
+        "id": "cj0o7m3ats0q901728udtw9w6",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "plains",
+          "seas",
+          "mesas"
+        ],
+        "diameter": 14050
+      },
+      {
+        "surfaceWater": null,
+        "name": "Trandosha",
+        "population": 42000000,
+        "orbitalPeriod": 371,
+        "rotationPeriod": 25,
+        "gravity": "0.62 standard",
+        "residents": [
+          {
+            "id": "cj0nv9pgpewhs01308btlvm1c"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3b4s0qb01722khalvck",
+        "climate": [
+          "arid"
+        ],
+        "terrain": [
+          "mountains",
+          "seas",
+          "grasslands",
+          "deserts"
+        ],
+        "diameter": 0
+      },
+      {
+        "surfaceWater": null,
+        "name": "Socorro",
+        "population": 300000000,
+        "orbitalPeriod": 326,
+        "rotationPeriod": 20,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9ph2ewhu0130neejtdm7"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3bis0qe0172bhy753x6",
+        "climate": [
+          "arid"
+        ],
+        "terrain": [
+          "deserts",
+          "mountains"
+        ],
+        "diameter": 0
+      },
+      {
+        "surfaceWater": 100,
+        "name": "Mon Cala",
+        "population": 27000000000,
+        "orbitalPeriod": 398,
+        "rotationPeriod": 21,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9phmewhy0130he5s0k5r"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3bts0qg0172bjionq4d",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "oceans",
+          "reefs",
+          "islands"
+        ],
+        "diameter": 11030
+      },
+      {
+        "surfaceWater": 40,
+        "name": "Chandrila",
+        "population": 1200000000,
+        "orbitalPeriod": 368,
+        "rotationPeriod": 20,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9phwewi00130bpgkvz0r"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3cds0ui0172a192en8k",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "plains",
+          "forests"
+        ],
+        "diameter": 13500
+      },
+      {
+        "surfaceWater": 5,
+        "name": "Sullust",
+        "population": 18500000000,
+        "orbitalPeriod": 263,
+        "rotationPeriod": 20,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9piqewi601303n0rve5n"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3cps0ul0172dnckj7vj",
+        "climate": [
+          "superheated"
+        ],
+        "terrain": [
+          "mountains",
+          "volcanoes",
+          "rocky deserts"
+        ],
+        "diameter": 12780
+      },
+      {
+        "surfaceWater": null,
+        "name": "Toydaria",
+        "population": 11000000,
+        "orbitalPeriod": 184,
+        "rotationPeriod": 21,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pl4ewim0130iuckr8ut"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3d2s0un0172gxr4utv1",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "swamps",
+          "lakes"
+        ],
+        "diameter": 7900
+      },
+      {
+        "surfaceWater": null,
+        "name": "Malastare",
+        "population": 2000000000,
+        "orbitalPeriod": 201,
+        "rotationPeriod": 26,
+        "gravity": "1.56",
+        "residents": [
+          {
+            "id": "cj0nv9plfewip0130c5k4auth"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3dgs0up0172k9xzj00v",
+        "climate": [
+          "arid",
+          "temperate",
+          "tropical"
+        ],
+        "terrain": [
+          "swamps",
+          "deserts",
+          "jungles",
+          "mountains"
+        ],
+        "diameter": 18880
+      },
+      {
+        "surfaceWater": null,
+        "name": "Dathomir",
+        "population": 5200,
+        "orbitalPeriod": 491,
+        "rotationPeriod": 24,
+        "gravity": "0.9",
+        "residents": [
+          {
+            "id": "cj0nv9pmjewmw0130smxc3xtg"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3drs0ur0172fdd5ofjt",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "forests",
+          "deserts",
+          "savannas"
+        ],
+        "diameter": 10480
+      },
+      {
+        "surfaceWater": 5,
+        "name": "Ryloth",
+        "population": 1500000000,
+        "orbitalPeriod": 305,
+        "rotationPeriod": 30,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pmwewmz0130veuttq0v"
+          },
+          {
+            "id": "cj0nv9pn7ewn10130pjfdjhzs"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3e4s0uu0172fjlmos13",
+        "climate": [
+          "temperate",
+          "arid",
+          "subartic"
+        ],
+        "terrain": [
+          "mountains",
+          "valleys",
+          "deserts",
+          "tundra"
+        ],
+        "diameter": 10600
+      },
+      {
+        "surfaceWater": null,
+        "name": "Aleen Minor",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pw0ewwn0130qm7f70ar"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3egs0uw01728agm8lk3",
+        "climate": null,
+        "terrain": null,
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Vulpter",
+        "population": 421000000,
+        "orbitalPeriod": 391,
+        "rotationPeriod": 22,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pnhewn30130ite82hqe"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3ess0yy0172cwcvte2o",
+        "climate": [
+          "temperate",
+          "artic"
+        ],
+        "terrain": [
+          "urban",
+          "barren"
+        ],
+        "diameter": 14900
+      },
+      {
+        "surfaceWater": null,
+        "name": "Troiken",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pnrewn50130hnrutky4"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3f4s0z001722x75zg88",
+        "climate": null,
+        "terrain": [
+          "desert",
+          "tundra",
+          "rainforests",
+          "mountains"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Tund",
+        "population": 0,
+        "orbitalPeriod": 1770,
+        "rotationPeriod": 48,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9po1ewn70130a1bf76ks"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3fgs0z201726py8v0i4",
+        "climate": null,
+        "terrain": [
+          "barren",
+          "ash"
+        ],
+        "diameter": 12190
+      },
+      {
+        "surfaceWater": null,
+        "name": "Haruun Kal",
+        "population": 705300,
+        "orbitalPeriod": 383,
+        "rotationPeriod": 25,
+        "gravity": "0.98",
+        "residents": [
+          {
+            "id": "cj0nv9pobewn90130jrqyuflj"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3fus0z40172wr2a1r4k",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "toxic cloudsea",
+          "plateaus",
+          "volcanoes"
+        ],
+        "diameter": 10120
+      },
+      {
+        "surfaceWater": 20,
+        "name": "Cerea",
+        "population": 450000000,
+        "orbitalPeriod": 386,
+        "rotationPeriod": 27,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9polewnb0130gzslto9k"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3g6s0z601723omquq6s",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "verdant"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": 80,
+        "name": "Glee Anselm",
+        "population": 500000000,
+        "orbitalPeriod": 206,
+        "rotationPeriod": 33,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9povewqh0130rmmoxrdn"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3gks0z80172fc438aa4",
+        "climate": [
+          "tropical",
+          "temperate"
+        ],
+        "terrain": [
+          "lakes",
+          "islands",
+          "swamps",
+          "seas"
+        ],
+        "diameter": 15600
+      },
+      {
+        "surfaceWater": null,
+        "name": "Iridonia",
+        "population": null,
+        "orbitalPeriod": 413,
+        "rotationPeriod": 29,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pp6ewrf0130jmvs9sif"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3h9s0za0172xkjv0uli",
+        "climate": null,
+        "terrain": [
+          "rocky canyons",
+          "acid pools"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Tholoth",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [],
+        "films": [],
+        "id": "cj0o7m3hms13d0172ae0h7j4y",
+        "climate": null,
+        "terrain": null,
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Iktotch",
+        "population": null,
+        "orbitalPeriod": 481,
+        "rotationPeriod": 22,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pqeewrk0130hytbto03"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3hys13f0172afdugy1e",
+        "climate": [
+          "arid",
+          "rocky",
+          "windy"
+        ],
+        "terrain": [
+          "rocky"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Quermia",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pqqewrm0130dcgnl1yq"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3ibs13h0172wtepqat9",
+        "climate": null,
+        "terrain": null,
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Dorin",
+        "population": null,
+        "orbitalPeriod": 409,
+        "rotationPeriod": 22,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pqzewro0130goxvqygc"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3ios13l0172lbzyrgm1",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": null,
+        "diameter": 13400
+      },
+      {
+        "surfaceWater": null,
+        "name": "Champala",
+        "population": 3500000000,
+        "orbitalPeriod": 318,
+        "rotationPeriod": 27,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9praewrq01308qb59djk"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3j1s13p0172tzcsikaa",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "oceans",
+          "rainforests",
+          "plateaus"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Mirial",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9psyews20130wze1ip97"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3jes13t0172r2nk158g",
+        "climate": null,
+        "terrain": [
+          "deserts"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Serenno",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9ptjews60130a8hz99qg"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3jqs13y0172x84xryf5",
+        "climate": null,
+        "terrain": [
+          "rainforests",
+          "rivers",
+          "mountains"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Concord Dawn",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pu2ewsa0130famuiscl"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3k4s15t0172re9e5e3s",
+        "climate": null,
+        "terrain": [
+          "jungles",
+          "forests",
+          "deserts"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Zolan",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pudewsc0130bjbqmp9x"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3kjs19z0172i6qgebrs",
+        "climate": null,
+        "terrain": null,
+        "diameter": null
+      },
+      {
+        "surfaceWater": 100,
+        "name": "Ojom",
+        "population": 500000000,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9punewse0130uek8j4ee"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3kvs1a20172r4tmj560",
+        "climate": [
+          "frigid"
+        ],
+        "terrain": [
+          "oceans",
+          "glaciers"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Skako",
+        "population": 500000000000,
+        "orbitalPeriod": 384,
+        "rotationPeriod": 27,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pwnewwr0130laqwk4vm"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3l9s1a60172cvpwhku3",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "urban",
+          "vines"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": 25,
+        "name": "Muunilinst",
+        "population": 5000000000,
+        "orbitalPeriod": 412,
+        "rotationPeriod": 28,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pwxewwt01301nc2uohd"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3lms1aa0172h4fvs14o",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "plains",
+          "forests",
+          "hills",
+          "mountains"
+        ],
+        "diameter": 13800
+      },
+      {
+        "surfaceWater": null,
+        "name": "Shili",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9px7ewwv01307vk6kx07"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3lzs1ae0172jm02s6e8",
+        "climate": [
+          "temperate"
+        ],
+        "terrain": [
+          "cities",
+          "savannahs",
+          "seas",
+          "plains"
+        ],
+        "diameter": null
+      },
+      {
+        "surfaceWater": null,
+        "name": "Kalee",
+        "population": 4000000000,
+        "orbitalPeriod": 378,
+        "rotationPeriod": 23,
+        "gravity": "1",
+        "residents": [
+          {
+            "id": "cj0nv9pxjewwx0130vppfyd85"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3mbs1ah0172omfwoqg4",
+        "climate": [
+          "arid",
+          "temperate",
+          "tropical"
+        ],
+        "terrain": [
+          "rainforests",
+          "cliffs",
+          "canyons",
+          "seas"
+        ],
+        "diameter": 13850
+      },
+      {
+        "surfaceWater": null,
+        "name": "Umbara",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pyeewx30130y8lhjw4e"
+          }
+        ],
+        "films": [],
+        "id": "cj0o7m3mns1al0172njwpyaw0",
+        "climate": null,
+        "terrain": null,
+        "diameter": null
+      },
+      {
+        "surfaceWater": 1,
+        "name": "Tatooine",
+        "population": 200000,
+        "orbitalPeriod": 304,
+        "rotationPeriod": 23,
+        "gravity": "1 standard",
+        "residents": [
+          {
+            "id": "cj0nv9p8yewci0130wjy4o5fa"
+          },
+          {
+            "id": "cj0nv9p9gewck0130h8f8esy0"
+          },
+          {
+            "id": "cj0nv9pa9ewco0130v4ocnhed"
+          },
+          {
+            "id": "cj0nv9paxewcs01300tqz2uvu"
+          },
+          {
+            "id": "cj0nv9pbaewcu0130s0n2en0f"
+          },
+          {
+            "id": "cj0nv9pblewcw0130k575f0nj"
+          },
+          {
+            "id": "cj0nv9pbxewcy0130rl03ub1e"
+          },
+          {
+            "id": "cj0nv9pcjewd20130zu2qp5ml"
+          },
+          {
+            "id": "cj0nv9pm7ewmu0130ajkyh72d"
+          },
+          {
+            "id": "cj0nv9ps4ewrw0130n97oa08q"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy3fga5s01148gf8iy3c"
+          },
+          {
+            "id": "cj0nxmy3xga5u0114fbqads8y"
+          },
+          {
+            "id": "cj0nxmy4gga5w011440y2pr36"
+          },
+          {
+            "id": "cj0nxmy4zga5y0114r8npxjx8"
+          },
+          {
+            "id": "cj0nxmy5ega600114uiw05wle"
+          }
+        ],
+        "id": "cj0o7m3mzs1ap0172bipe927s",
+        "climate": [
+          "arid"
+        ],
+        "terrain": [
+          "desert"
+        ],
+        "diameter": 10465
+      },
+      {
+        "surfaceWater": null,
+        "name": "Jakku",
+        "population": null,
+        "orbitalPeriod": null,
+        "rotationPeriod": null,
+        "gravity": null,
+        "residents": [
+          {
+            "id": "cj0nv9pz8ewx90130rcqp39ma"
+          }
+        ],
+        "films": [
+          {
+            "id": "cj0nxmy69ga640114e3eb7bn2"
+          }
+        ],
+        "id": "cj0o7m3nbs1as0172k8on2ntg",
+        "climate": null,
+        "terrain": [
+          "deserts"
+        ],
+        "diameter": null
+      }
+    ]
